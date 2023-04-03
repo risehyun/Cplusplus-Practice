@@ -13,10 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\CH1.C와는다른C++">
+      <UniqueIdentifier>{8290ef86-f462-40c7-94fc-4bb589b67633}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ThisIsC++.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="CH1_EX_02.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_01.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_03.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_04.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_05.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
