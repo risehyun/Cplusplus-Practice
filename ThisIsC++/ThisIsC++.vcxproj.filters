@@ -33,5 +33,41 @@
     <ClCompile Include="CH1_EX_05.cpp">
       <Filter>소스 파일\CH1.C와는다른C++</Filter>
     </ClCompile>
+    <ClCompile Include="CH1_EX_06.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_07.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_08.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_09.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_10.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_11.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_EX_12.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_PR_01.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_PR_02.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_PR_03.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_PR_04.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1_PR_05.cpp">
+      <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
