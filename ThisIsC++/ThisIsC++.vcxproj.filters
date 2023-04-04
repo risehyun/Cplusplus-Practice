@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\CH1.C와는다른C++">
       <UniqueIdentifier>{8290ef86-f462-40c7-94fc-4bb589b67633}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CH2_C++함수와네임스페이스">
+      <UniqueIdentifier>{9ba2839e-4871-40d1-9775-f14d83e5c878}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CH1_EX_02.cpp">
@@ -68,6 +71,51 @@
     </ClCompile>
     <ClCompile Include="CH1_PR_05.cpp">
       <Filter>소스 파일\CH1.C와는다른C++</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_01.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_02.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_03.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_04.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_05.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_06.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_07.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_08.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_09.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_10.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_11.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_12.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_13.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_14.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_15.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
