@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\CH2_C++함수와네임스페이스">
       <UniqueIdentifier>{9ba2839e-4871-40d1-9775-f14d83e5c878}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CH3_클래스">
+      <UniqueIdentifier>{92d4a53b-cbb9-4d33-9f9e-37ac6fd425c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CH1_EX_02.cpp">
@@ -116,6 +119,30 @@
     </ClCompile>
     <ClCompile Include="CH2_EX_15.cpp">
       <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_16.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH2_EX_17.cpp">
+      <Filter>소스 파일\CH2_C++함수와네임스페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_01.c">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_02.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_03.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_04.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_05.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_06.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
