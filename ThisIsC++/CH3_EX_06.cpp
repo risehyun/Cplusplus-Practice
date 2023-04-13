@@ -1,3 +1,7 @@
+/*
+	생성자 함수의 역할
+*/
+
 #include <iostream>
 using namespace std;
 

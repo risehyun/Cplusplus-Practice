@@ -144,5 +144,23 @@
     <ClCompile Include="CH3_EX_06.cpp">
       <Filter>소스 파일\CH3_클래스</Filter>
     </ClCompile>
+    <ClCompile Include="CH3_EX_07.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_08.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_09.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_11.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_10.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH3_EX_12.cpp">
+      <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
