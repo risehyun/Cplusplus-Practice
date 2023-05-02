@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\CH3_클래스">
       <UniqueIdentifier>{92d4a53b-cbb9-4d33-9f9e-37ac6fd425c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CH4_복사생성자와임시객체">
+      <UniqueIdentifier>{fa1324cc-edec-4640-81ec-24589eedf3ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CH1_EX_02.cpp">
@@ -206,6 +209,60 @@
     </ClCompile>
     <ClCompile Include="CH3_EX_26.cpp">
       <Filter>소스 파일\CH3_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_01.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_02.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_03.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_04.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_05.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_06.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_07.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_08.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_09.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_10.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_11.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_12.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_13.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_14.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_15.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_16.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_17.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4_EX_18.cpp">
+      <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

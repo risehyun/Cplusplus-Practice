@@ -1,14 +1,41 @@
-
-/*
-	문자열을 설정하면 내부적으로 필요한 메모리를 자동으로 동적 할당하고 문자열을 저장하는 클래스를 작성해보자.
-	이를 활용하면 사용자는 메모리를 직접 다루는 코드를 작성하지 않아도 된다
-*/
-
 #include "CMyString.h"
 
+// 변환 생성자
+CMyString::CMyString(const char* pszParam)
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+	SetString(pszParam);
+}
+
+// 복사 생성자
+CMyString::CMyString(const CMyString& rhs)
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+	this->SetString(rhs.GetString());
+}
+
+// 이동 생성자
+CMyString::CMyString(CMyString&& rhs)
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+	cout << "CMyString 이동 생성자 호출" << endl;
+
+	// 얕은 복사를 사용해도 상관 없다. 어차피 원본이 곧 소멸될 것이기 때문이다.
+	m_pszData = rhs.m_pszData;
+	m_nLength = rhs.m_nLength;
+
+	// 원본 임시 객체의 멤버들은 초기화한다. 절대로 해제하면 안된다.
+	// 여기서 원본값을 변경해 NULL로 초기화 해주므로 두 포인터가 동시에 한 대상을 가리키는 일이 발생하지 않는다.
+	// 따라서 바로 위에서 얕은 복사를 수행해도 문제가 되지 않는다.
+	rhs.m_pszData = NULL;
+	rhs.m_nLength = 0;
+}
 
 CMyString::CMyString()
-	: m_pszData(nullptr)
+	: m_pszData(NULL)
 	, m_nLength(0)
 {
 
@@ -19,6 +46,7 @@ CMyString::~CMyString()
 	// 객체가 소멸하기 전에 메모리를 해제한다.
 	Release();
 }
+
 
 int CMyString::SetString(const char* pszParam)
 {
@@ -65,4 +93,15 @@ void CMyString::Release()
 
 	m_pszData = nullptr;
 	m_nLength = 0;
+}
+
+CMyString& CMyString::operator=(const CMyString& rhs)
+{
+	// 자기 자신에 대한 대입이면 아무것도 하지 않는다.
+	if (this != &rhs)
+	{
+		this->SetString(rhs.GetString());
+	}
+
+	return *this;
 }

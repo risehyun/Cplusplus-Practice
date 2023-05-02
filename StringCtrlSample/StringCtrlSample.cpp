@@ -1,18 +1,17 @@
 ﻿#include "CMyString.h"
 
-// 여기서는 사용자 코드를 작성한다.
-
-void TestFunc(const CMyString& param)
+CMyString TestFunc(void)
 {
-    cout << param.GetString() << endl;
+    CMyString strTest("TestFunc() return");
+    cout << strTest << endl;
+
+    return strTest;
 }
 
 int main()
 {
-    CMyString strData;
-    strData.SetString("Hello");
-    cout << strData.GetString() << endl;
-    TestFunc(strData);
+    // 이름 없는 임시 객체가 만들어진다.
+    TestFunc();
 
     return 0;
 }
