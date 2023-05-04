@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "실습과제", "실습과�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringCtrlSample", "StringCtrlSample\StringCtrlSample.vcxproj", "{866EC93C-FF17-4549-9D84-EA669B78FF81}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1장_연산자오버로딩", "1장_연산자오버로딩", "{7BDF8B28-3520-4543-B359-630DEBDE0EDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -59,6 +61,7 @@ Global
 		{D43F829A-3F13-4A75-8A2A-7EC0C590B698} = {EFD0AA69-6C06-4EA4-BC5A-60FCA7A6BE0D}
 		{E2397277-E867-4C9D-803C-31B1763EBF48} = {A650BE33-D32F-45F4-B02A-8D82CA6C2D16}
 		{866EC93C-FF17-4549-9D84-EA669B78FF81} = {E2397277-E867-4C9D-803C-31B1763EBF48}
+		{7BDF8B28-3520-4543-B359-630DEBDE0EDC} = {25133DA5-F628-4995-88C5-E2514E4E3078}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55B4212C-0681-460F-A9AE-1F99E28DDC0F}
