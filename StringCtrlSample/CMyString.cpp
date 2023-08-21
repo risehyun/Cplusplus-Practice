@@ -95,6 +95,12 @@ void CMyString::Release()
 	m_nLength = 0;
 }
 
+int CMyString::GetLength() const
+{
+	return m_nLength;
+}
+
+
 CMyString& CMyString::operator=(const CMyString& rhs)
 {
 	// 자기 자신에 대한 대입이면 아무것도 하지 않는다.
@@ -103,5 +109,68 @@ CMyString& CMyString::operator=(const CMyString& rhs)
 		this->SetString(rhs.GetString());
 	}
 
+	return *this;
+}
+
+
+int CMyString::Append(const char* pszParam)
+{
+	// <방어코드>
+	// 포인터, 클래스를 매개변수로 받을 때는 매개변수가 유효한지 검사해줘야 합니다. 이런 방어코드를 습관화합시다.
+	if (m_pszData == NULL)
+	{
+		return 0;
+	}
+
+	int nLenParam = strlen(pszParam);
+	
+	// 혹시나 길이가 0인 상황이 있을 수 있으므로 이를 위한 방어코드를 작성합니다.
+	if (nLenParam == 0)
+	{
+		return 0;
+	}
+
+
+	// <1차 작업 : 무작정 Append를 하지 않고 가장 기본적인 상황부터 차근차근 코딩한다.>
+	// 세트된 문자열이 없다면 새로 문자열을 할당한 것과 동일하게 처리한다.
+	if (m_pszData == NULL)
+	{
+		SetString(pszParam);
+
+		return m_nLength;
+	}
+
+	// 현재 문자열의 길이 백업
+	int nLenCur = m_nLength;
+
+	// 두 문자열을 합쳐서 저장할 수 있는 메모리를 새로 할당함
+	char* pszResult = new char[nLenCur + nLenParam + 1];
+
+	// 문자열 조합
+	strcpy_s(pszResult, sizeof(char) * (nLenCur + 1), m_pszData);
+	strcpy_s(pszResult + (sizeof(char) * nLenCur),
+		sizeof(char) * (nLenParam + 1), pszParam);
+
+	// 기존 문자열 삭제 및 멤버 정보 갱신
+	Release();
+	m_pszData = pszResult;
+	m_nLength = nLenCur + nLenParam;
+
+	return m_nLength;
+}
+
+
+CMyString CMyString::operator+(const CMyString& rhs)
+{
+	CMyString strResult(m_pszData);
+	strResult.Append(rhs.GetString());
+
+	return strResult;
+}
+
+
+CMyString& CMyString::operator+=(const CMyString& rhs)
+{
+	Append(rhs.GetString());
 	return *this;
 }

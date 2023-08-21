@@ -88,10 +88,55 @@ public:
 		return result;
 	}
 
+	// =
+	CMyData& operator= (const CMyData& rhs)
+	{
+		cout << "operator=" << endl;
+		m_nData = rhs.m_nData;
 
-
+		return *this;
+	}
 
 private:
 	int m_nData = 0;
 };
 
+int main()
+{
+	cout << "**** Begin ****" << endl;
+	CMyData a(0), b(3), c(4);
+
+	// b + c 연산을 실행하면 이름 없는 임시 객체가 만들어지며
+	// a에 대입하는 것은 이 임시 객체다.
+	a = b + c;
+
+
+
+	cout << a << endl;
+
+	cout << "**** End ****" << endl;
+
+	return 0;
+}
+
+/*
+	a = b + c; 코드의 작동 방식은 아래 코드와 동일하다.
+
+	a = b.operator+(c);
+	a.operator=(b.operator+(c));
+
+	더욱 자세히 순서를 뜯어보면 다음과 같다.
+	
+	먼저 b + c를 처리한다.
+
+	1. operator+ 호출
+
+	2. 결과를 저장하기 위한 임시객체 생성, 이에 대한 CMyData(int) 호출
+
+	3. CMyData(const CMyData &&)가 실행되며 c에 대한 참조를 전달하여 실질적인 연산 진행
+
+	a에 결과값을 넘겨준다.
+
+	1. operator= 호출
+
+*/

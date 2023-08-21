@@ -1,17 +1,16 @@
 ﻿#include "CMyString.h"
 
-CMyString TestFunc(void)
+void TestFunc(const CMyString& strParam)
 {
-    CMyString strTest("TestFunc() return");
-    cout << strTest << endl;
-
-    return strTest;
+    cout << strParam[0] << endl;
+    cout << strParam[strParam.GetLength() - 1] << endl;
 }
 
 int main()
 {
-    // 이름 없는 임시 객체가 만들어진다.
-    TestFunc();
+    CMyString strParam("HelloWorld");
+    cout << strParam << endl;
+    TestFunc(strParam);
 
     return 0;
 }

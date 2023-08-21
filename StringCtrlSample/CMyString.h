@@ -26,13 +26,19 @@ public:
 
 	void Release();
 
-	CMyString& operator=(const CMyString& rhs);
+	int GetLength() const;
 
-	operator char* () const
+	int Append(const char* pszParam);
+
+	// <연산자 다중 정의>
+	operator char*() const
 	{
 		return m_pszData;
 	}
 
+	CMyString operator+(const CMyString& rhs);
+	CMyString& operator=(const CMyString& rhs);
+	CMyString& operator+=(const CMyString& rhs);
 
 private:
 	// 문자열을 저장하기 위해 동적 할당한 메모리를 가리키는 포인터
@@ -40,6 +46,4 @@ private:
 
 	// 저장된 문자열 길이
 	int m_nLength;
-
-
 };

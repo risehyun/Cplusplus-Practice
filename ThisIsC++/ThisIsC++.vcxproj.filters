@@ -25,9 +25,6 @@
     <Filter Include="소스 파일\CH4_복사생성자와임시객체">
       <UniqueIdentifier>{fa1324cc-edec-4640-81ec-24589eedf3ad}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CH5_연산자다중정의">
-      <UniqueIdentifier>{830fdfe0-4ef5-40b5-b9d4-49a4466a2ed4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\CH5_연산자다중정의">
       <UniqueIdentifier>{cd6dd5eb-6991-4107-96b1-6771ffda7a02}</UniqueIdentifier>
     </Filter>
@@ -271,6 +268,15 @@
       <Filter>소스 파일\CH4_복사생성자와임시객체</Filter>
     </ClCompile>
     <ClCompile Include="CH5_EX_01.cpp">
+      <Filter>소스 파일\CH5_연산자다중정의</Filter>
+    </ClCompile>
+    <ClCompile Include="CH5_EX_02.cpp">
+      <Filter>소스 파일\CH5_연산자다중정의</Filter>
+    </ClCompile>
+    <ClCompile Include="CH5_EX_03.cpp">
+      <Filter>소스 파일\CH5_연산자다중정의</Filter>
+    </ClCompile>
+    <ClCompile Include="CH5_EX_04%28배열연산자%29.cpp">
       <Filter>소스 파일\CH5_연산자다중정의</Filter>
     </ClCompile>
   </ItemGroup>
