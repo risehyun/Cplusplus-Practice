@@ -159,5 +159,17 @@
     <ClCompile Include="LV02_RV7.cpp">
       <Filter>LV02\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV02_RV8.cpp">
+      <Filter>LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_RV9.cpp">
+      <Filter>LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_RV10.cpp">
+      <Filter>LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_RV11.cpp">
+      <Filter>LV02\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
