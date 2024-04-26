@@ -31,6 +31,15 @@
     <Filter Include="LV02\복습문제">
       <UniqueIdentifier>{6a05a73f-954d-4f16-8365-1d5cfca03a3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LV03">
+      <UniqueIdentifier>{03e24013-79eb-4b1b-a7e4-964d838f8bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV03\복습문제">
+      <UniqueIdentifier>{4c737ebc-72c7-4a3b-91d2-f09576468c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV03\연습문제">
+      <UniqueIdentifier>{ff4979f2-885d-47e6-a875-d768f87022d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -170,6 +179,51 @@
     </ClCompile>
     <ClCompile Include="LV02_RV11.cpp">
       <Filter>LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT1.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT2.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT3.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT4.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT5.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT6.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT7.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT8.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT9.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT10.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT11.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT12.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT13.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT14.cpp">
+      <Filter>LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_PT15.cpp">
+      <Filter>LV03\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
