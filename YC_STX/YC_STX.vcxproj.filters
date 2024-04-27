@@ -315,5 +315,32 @@
     <ClCompile Include="LV04_PT12.cpp">
       <Filter>LV04\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV04_RV1.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV2.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV3.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV4.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV5.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV6.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV7.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV8.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_RV9.cpp">
+      <Filter>LV04\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
