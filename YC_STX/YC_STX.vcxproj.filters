@@ -40,6 +40,15 @@
     <Filter Include="LV03\연습문제">
       <UniqueIdentifier>{ff4979f2-885d-47e6-a875-d768f87022d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LV04">
+      <UniqueIdentifier>{b63c0e98-4746-4022-b3a0-6765e7d3e9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV04\연습문제">
+      <UniqueIdentifier>{5e9eb8e1-2b1f-463a-988f-d2603a0dacff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV04\복습문제">
+      <UniqueIdentifier>{2b6f1eda-1f89-4d05-a7fe-7f0ac8ba8b21}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -269,6 +278,42 @@
     </ClCompile>
     <ClCompile Include="LV03_RV15.cpp">
       <Filter>LV03\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT1.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT2.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT3.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT4.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT5.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT6.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT7.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT8.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT9.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT10.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT11.cpp">
+      <Filter>LV04\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_PT12.cpp">
+      <Filter>LV04\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
