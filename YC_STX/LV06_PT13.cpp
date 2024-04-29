@@ -9,9 +9,9 @@ int main()
 
 	for (int i = 0; i < c; i++)
 	{
-		for (int i = a; i <= b; i++)
+		for (int j = a; j <= b; j++)
 		{
-			cout << i << " ";
+			cout << j << " ";
 		}
 
 		cout << endl;

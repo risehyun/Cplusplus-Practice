@@ -9,9 +9,9 @@ int main()
 
 	for (int i = 0; i < 4; i++)
 	{
-		for (int i = input1; i <= input2; i++)
+		for (int j = input1; j <= input2; j++)
 		{
-			cout << (char)i << " ";
+			cout << (char)j << " ";
 		}
 
 		cout << endl;

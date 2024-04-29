@@ -11,9 +11,9 @@ int main()
 
 	for (int i = 0; i < input; i++)
 	{
-		for (int i = 0; i < 4; i++)
+		for (int j = 0; j < 4; j++)
 		{
-			cout << arr[i] << " ";
+			cout << arr[j] << " ";
 		}
 
 		cout << endl;
