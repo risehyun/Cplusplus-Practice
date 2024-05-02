@@ -94,6 +94,15 @@
     <Filter Include="LV09\연습문제">
       <UniqueIdentifier>{06c622b3-2939-40b3-b254-904fd9f74c81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LV10">
+      <UniqueIdentifier>{f550cfbb-43e1-4991-b904-5769bd4e9504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV10\연습문제">
+      <UniqueIdentifier>{88c2943a-9f78-43d1-b7ae-721177a89053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV10\복습문제">
+      <UniqueIdentifier>{23ea9408-bd8b-4ec2-9c0f-295f62faa0e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -713,6 +722,18 @@
     </ClCompile>
     <ClCompile Include="LV09_RV8.cpp">
       <Filter>LV09\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT1.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT2.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT3.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT4.cpp">
+      <Filter>LV10\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
