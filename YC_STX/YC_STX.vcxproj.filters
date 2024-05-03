@@ -735,5 +735,11 @@
     <ClCompile Include="LV10_PT4.cpp">
       <Filter>LV10\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV11_PT5.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV11_PT6.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
