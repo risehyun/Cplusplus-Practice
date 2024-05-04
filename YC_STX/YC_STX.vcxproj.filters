@@ -735,10 +735,28 @@
     <ClCompile Include="LV10_PT4.cpp">
       <Filter>LV10\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="LV11_PT5.cpp">
+    <ClCompile Include="LV10_PT5.cpp">
       <Filter>LV10\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="LV11_PT6.cpp">
+    <ClCompile Include="LV10_PT6.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT7.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT8.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT9.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT10.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT11.cpp">
+      <Filter>LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_PT12.cpp">
       <Filter>LV10\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
