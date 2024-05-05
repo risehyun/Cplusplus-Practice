@@ -813,5 +813,20 @@
     <ClCompile Include="LV10_RV4.cpp">
       <Filter>LV10\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV10_RV5.cpp">
+      <Filter>LV10\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_RV6.cpp">
+      <Filter>LV10\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_RV7.cpp">
+      <Filter>LV10\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_RV8.cpp">
+      <Filter>LV10\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_RV9.cpp">
+      <Filter>LV10\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
