@@ -897,5 +897,29 @@
     <ClCompile Include="LV12_PT10.cpp">
       <Filter>LV12\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV12_RV1.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV2.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV3.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV5.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV4.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV6.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV7.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_RV8.cpp">
+      <Filter>LV12\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
