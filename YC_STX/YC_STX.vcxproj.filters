@@ -127,6 +127,9 @@
     <Filter Include="LV13\연습문제">
       <UniqueIdentifier>{4d5ab35f-714f-4dde-9b25-7f7476ce7d0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LV14">
+      <UniqueIdentifier>{111598c1-2206-4135-80a8-caa6f6d3c3d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -962,6 +965,15 @@
     </ClCompile>
     <ClCompile Include="LV13_PT12.cpp">
       <Filter>LV13\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT1.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT2.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT3.cpp">
+      <Filter>LV14</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
