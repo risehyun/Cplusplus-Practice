@@ -975,5 +975,38 @@
     <ClCompile Include="LV14_PT3.cpp">
       <Filter>LV14</Filter>
     </ClCompile>
+    <ClCompile Include="LV14_PT4.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT5.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT6.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT7.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT8.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT9.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT10.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT11.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT12.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT13.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV14_PT14.cpp">
+      <Filter>LV14</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
