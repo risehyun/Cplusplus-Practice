@@ -13,1000 +13,1018 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="LV01">
+    <Filter Include="기초">
+      <UniqueIdentifier>{acad2474-f7cb-4882-a0bc-022b4d5ece57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기초\LV01">
       <UniqueIdentifier>{094c22a4-eccf-43f5-a08a-64c12348fbdc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV01\연습문제">
+    <Filter Include="기초\LV01\연습문제">
       <UniqueIdentifier>{dba3e346-69f9-4711-af14-5ab76e16e7bd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV01\복습문제">
+    <Filter Include="기초\LV01\복습문제">
       <UniqueIdentifier>{79b2727e-b7c3-4c4d-9aa4-5da48ffd6270}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV02">
+    <Filter Include="기초\LV02">
       <UniqueIdentifier>{39b74e04-cdbf-4e89-9edc-58113cc4eb97}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV02\연습문제">
+    <Filter Include="기초\LV02\연습문제">
       <UniqueIdentifier>{0af6bad1-c412-4616-a7ed-279d5c3c5b85}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV02\복습문제">
+    <Filter Include="기초\LV02\복습문제">
       <UniqueIdentifier>{6a05a73f-954d-4f16-8365-1d5cfca03a3f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV03">
+    <Filter Include="기초\LV03">
       <UniqueIdentifier>{03e24013-79eb-4b1b-a7e4-964d838f8bca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV03\복습문제">
+    <Filter Include="기초\LV03\복습문제">
       <UniqueIdentifier>{4c737ebc-72c7-4a3b-91d2-f09576468c33}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV03\연습문제">
+    <Filter Include="기초\LV03\연습문제">
       <UniqueIdentifier>{ff4979f2-885d-47e6-a875-d768f87022d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV04">
+    <Filter Include="기초\LV04">
       <UniqueIdentifier>{b63c0e98-4746-4022-b3a0-6765e7d3e9f5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV04\연습문제">
+    <Filter Include="기초\LV04\연습문제">
       <UniqueIdentifier>{5e9eb8e1-2b1f-463a-988f-d2603a0dacff}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV04\복습문제">
+    <Filter Include="기초\LV04\복습문제">
       <UniqueIdentifier>{2b6f1eda-1f89-4d05-a7fe-7f0ac8ba8b21}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV05">
+    <Filter Include="기초\LV05">
       <UniqueIdentifier>{ad59b023-43e6-4981-9668-7f0398b1514f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV05\복습문제">
+    <Filter Include="기초\LV05\복습문제">
       <UniqueIdentifier>{36c46f44-61e9-458e-bcc3-7b2d6a9ec955}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV05\연습문제">
+    <Filter Include="기초\LV05\연습문제">
       <UniqueIdentifier>{24f2c096-fa97-435d-8b72-a543688de0d1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV06">
+    <Filter Include="기초\LV06">
       <UniqueIdentifier>{9424649e-fecb-46d4-a1a3-7f1cd484b54e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV06\복습문제">
+    <Filter Include="기초\LV06\복습문제">
       <UniqueIdentifier>{ac47702a-1111-4074-b923-494aa0e6c878}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV06\연습문제">
+    <Filter Include="기초\LV06\연습문제">
       <UniqueIdentifier>{abb8b179-5847-4d50-bf0a-18b20fb0a393}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV07">
+    <Filter Include="기초\LV07">
       <UniqueIdentifier>{ed15d75b-582a-435a-9361-9bc8907090c7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV07\복습문제">
+    <Filter Include="기초\LV07\복습문제">
       <UniqueIdentifier>{871972bd-f37b-4180-afe4-563ec8914e50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV07\연습문제">
+    <Filter Include="기초\LV07\연습문제">
       <UniqueIdentifier>{fcb66ed2-bfcc-4cf4-a1d2-bc1675d5ba50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV08">
+    <Filter Include="기초\LV08">
       <UniqueIdentifier>{cc5389e6-fad5-40cb-b080-d45fe0b127ca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV08\연습문제">
+    <Filter Include="기초\LV08\연습문제">
       <UniqueIdentifier>{02a76e9d-0044-4583-a68d-a5919d936116}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV08\복습문제">
+    <Filter Include="기초\LV08\복습문제">
       <UniqueIdentifier>{214dc831-6150-462d-9b09-c046947fe075}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV09">
+    <Filter Include="기초\LV09">
       <UniqueIdentifier>{a97a2fe5-9a09-4013-8f7e-0891ee95bc2d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV09\복습문제">
+    <Filter Include="기초\LV09\복습문제">
       <UniqueIdentifier>{f93df821-e736-4274-bdd3-1e2b784a84e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV09\연습문제">
+    <Filter Include="기초\LV09\연습문제">
       <UniqueIdentifier>{06c622b3-2939-40b3-b254-904fd9f74c81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV10">
+    <Filter Include="기초\LV10">
       <UniqueIdentifier>{f550cfbb-43e1-4991-b904-5769bd4e9504}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV10\연습문제">
+    <Filter Include="기초\LV10\연습문제">
       <UniqueIdentifier>{88c2943a-9f78-43d1-b7ae-721177a89053}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV10\복습문제">
+    <Filter Include="기초\LV10\복습문제">
       <UniqueIdentifier>{23ea9408-bd8b-4ec2-9c0f-295f62faa0e6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV11">
+    <Filter Include="기초\LV11">
       <UniqueIdentifier>{e6a73d46-d0bf-4fb8-bb82-b427104c8c59}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV11\연습문제">
+    <Filter Include="기초\LV11\연습문제">
       <UniqueIdentifier>{51f3dfd5-e67e-4054-bbb3-d508d88de10f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV11\복습문제">
+    <Filter Include="기초\LV11\복습문제">
       <UniqueIdentifier>{c2ca128e-a7d4-44d4-a4ae-2ae72277ddd0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV12">
+    <Filter Include="기초\LV12">
       <UniqueIdentifier>{40a43870-5144-43e2-b06c-023b28664907}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV12\연습문제">
+    <Filter Include="기초\LV12\연습문제">
       <UniqueIdentifier>{1a1aed10-4994-43b3-8dc2-6ed96238324c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV12\복습문제">
+    <Filter Include="기초\LV12\복습문제">
       <UniqueIdentifier>{13c44259-54e6-4182-a74d-6ab7d8da9518}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV13">
+    <Filter Include="기초\LV13">
       <UniqueIdentifier>{65d1fa9d-a550-48a3-a43e-ff69ec0364c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV13\연습문제">
+    <Filter Include="기초\LV13\연습문제">
       <UniqueIdentifier>{4d5ab35f-714f-4dde-9b25-7f7476ce7d0f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LV14">
+    <Filter Include="기초\LV14">
       <UniqueIdentifier>{111598c1-2206-4135-80a8-caa6f6d3c3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기초\LV15">
+      <UniqueIdentifier>{d857288f-370a-480a-a535-47b9669ea96d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT2.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT3.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT4.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT5.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT6.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT7.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT8.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT9.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT10.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT11.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT12.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT13.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_PT14.cpp">
-      <Filter>LV01\연습문제</Filter>
+      <Filter>기초\LV01\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV1.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV2.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV3.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV4.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV5.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV6.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV7.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV8.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV01_RV9.cpp">
-      <Filter>LV01\복습문제</Filter>
+      <Filter>기초\LV01\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT1.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT2.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT3.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT4.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT5.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT6.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT7.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT8.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT9.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT10.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT11.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_PT12.cpp">
-      <Filter>LV02\연습문제</Filter>
+      <Filter>기초\LV02\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV1.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV2.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV3.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV4.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV5.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV6.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV7.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV8.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV9.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV10.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV02_RV11.cpp">
-      <Filter>LV02\복습문제</Filter>
+      <Filter>기초\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT1.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT2.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT3.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT4.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT5.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT6.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT7.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT8.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT9.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT10.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT11.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT12.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT13.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT14.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_PT15.cpp">
-      <Filter>LV03\연습문제</Filter>
+      <Filter>기초\LV03\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV1.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV2.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV3.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV4.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV5.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV6.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV7.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV8.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV9.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV10.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV11.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV12.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV13.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV14.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_RV15.cpp">
-      <Filter>LV03\복습문제</Filter>
+      <Filter>기초\LV03\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT1.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT2.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT3.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT4.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT5.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT6.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT7.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT8.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT9.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT10.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT11.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_PT12.cpp">
-      <Filter>LV04\연습문제</Filter>
+      <Filter>기초\LV04\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV1.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV2.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV3.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV4.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV5.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV6.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV7.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV8.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV04_RV9.cpp">
-      <Filter>LV04\복습문제</Filter>
+      <Filter>기초\LV04\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT1.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT2.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT3.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT4.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT5.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT6.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT7.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT8.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT9.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT10.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT11.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT12.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_PT13.cpp">
-      <Filter>LV05\연습문제</Filter>
+      <Filter>기초\LV05\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV1.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV2.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV3.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV4.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV5.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV6.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV7.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV8.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV9.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV10.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV11.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV12.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV13.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV05_RV14.cpp">
-      <Filter>LV05\복습문제</Filter>
+      <Filter>기초\LV05\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT1.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT2.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT3.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT4.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT5.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT6.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT7.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT8.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT9.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT10.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT11.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT12.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_PT13.cpp">
-      <Filter>LV06\연습문제</Filter>
+      <Filter>기초\LV06\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV1.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV2.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV3.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV4.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV5.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV6.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV7.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV8.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV9.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV06_RV10.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="RV06_RV11.cpp">
-      <Filter>LV06\복습문제</Filter>
+      <Filter>기초\LV06\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT1.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT2.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT3.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT4.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT5.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT6.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT7.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT8.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT9.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT10.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT11.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_PT12.cpp">
-      <Filter>LV07\연습문제</Filter>
+      <Filter>기초\LV07\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV1.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV2.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV3.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV4.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV5.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV6.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV07_RV7.cpp">
-      <Filter>LV07\복습문제</Filter>
+      <Filter>기초\LV07\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT1.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT2.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT3.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT4.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT5.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT6.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT7.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT8.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT9.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT10.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_PT11.cpp">
-      <Filter>LV08\연습문제</Filter>
+      <Filter>기초\LV08\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV1.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV2.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV3.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV4.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV5.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV6.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV7.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV8.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV08_RV9.cpp">
-      <Filter>LV08\복습문제</Filter>
+      <Filter>기초\LV08\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT1.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT2.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT3.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT4.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT5.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT6.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT7.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT8.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT9.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT10.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_PT11.cpp">
-      <Filter>LV09\연습문제</Filter>
+      <Filter>기초\LV09\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV1.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV2.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV3.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV4.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV5.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV6.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV7.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV09_RV8.cpp">
-      <Filter>LV09\복습문제</Filter>
+      <Filter>기초\LV09\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT1.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT2.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT3.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT4.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT5.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT6.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT7.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT8.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT9.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT10.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT11.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_PT12.cpp">
-      <Filter>LV10\연습문제</Filter>
+      <Filter>기초\LV10\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT1.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT2.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT3.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT4.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT5.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT6.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT7.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT8.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT9.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT10.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_PT11.cpp">
-      <Filter>LV11\연습문제</Filter>
+      <Filter>기초\LV11\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV1.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV2.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV3.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV4.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV5.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV6.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV7.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV8.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV10_RV9.cpp">
-      <Filter>LV10\복습문제</Filter>
+      <Filter>기초\LV10\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV1.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV2.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV3.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV4.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV5.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV6.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV7.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV8.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV9.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV11_RV10.cpp">
-      <Filter>LV11\복습문제</Filter>
+      <Filter>기초\LV11\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT1.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT2.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT3.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT4.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT5.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT6.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT7.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT8.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT9.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_PT10.cpp">
-      <Filter>LV12\연습문제</Filter>
+      <Filter>기초\LV12\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV1.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV2.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV3.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV5.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV4.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV6.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV7.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV12_RV8.cpp">
-      <Filter>LV12\복습문제</Filter>
+      <Filter>기초\LV12\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT1.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT2.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT3.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT4.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT5.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT6.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT7.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT8.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT9.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT10.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT11.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV13_PT12.cpp">
-      <Filter>LV13\연습문제</Filter>
+      <Filter>기초\LV13\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT1.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT2.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT3.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT4.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT5.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT6.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT7.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT8.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT9.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT10.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT11.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT12.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT13.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
     </ClCompile>
     <ClCompile Include="LV14_PT14.cpp">
-      <Filter>LV14</Filter>
+      <Filter>기초\LV14</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT1.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT2.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT3.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT4.cpp">
+      <Filter>기초\LV15</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
