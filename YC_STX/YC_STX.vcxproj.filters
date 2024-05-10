@@ -1026,5 +1026,17 @@
     <ClCompile Include="LV15_PT4.cpp">
       <Filter>기초\LV15</Filter>
     </ClCompile>
+    <ClCompile Include="LV15_PT5.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT6.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT7.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_PT8.cpp">
+      <Filter>기초\LV15</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
