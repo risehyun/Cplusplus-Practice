@@ -6,25 +6,21 @@ int main()
 	char arr[6][3] = {};
 
 	char Alphabet = 'A';
-	
-	for (int y = 5; y >= 0; y--)
+
+	int y = 0, x = 0;
+
+	cin >> y >> x;
+
+	for (int x = 2; x >= 0; x--)
 	{
-		for (int x = 2; x >= 0; x--)
+		for (int y = 5; y >= 0; y--)
 		{
 			arr[y][x] = Alphabet;
 			Alphabet++;
 		}
 	}
 
-	for (int y = 5; y >= 0; y--)
-	{
-		for (int x = 2; x >= 0; x--)
-		{
-			cout << arr[y][x];
-		}
-
-		cout << endl;
-	}
+	cout << arr[y][x];
 
 	return 0;
 }
