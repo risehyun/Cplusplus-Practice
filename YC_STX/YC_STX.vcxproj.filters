@@ -1071,5 +1071,20 @@
     <ClCompile Include="LV01_MPT_4.cpp">
       <Filter>중급\LV01\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV01_MPT_5.cpp">
+      <Filter>중급\LV01\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_6.cpp">
+      <Filter>중급\LV01\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_7.cpp">
+      <Filter>중급\LV01\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_8.cpp">
+      <Filter>중급\LV01\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_9.cpp">
+      <Filter>중급\LV01\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
