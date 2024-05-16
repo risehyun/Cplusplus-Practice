@@ -2,27 +2,41 @@
 
 using namespace std;
 
-void Print(int a, int b, int c)
+char findChar(char* input)
 {
-	for (int i = 0; i < c; i++)
+	int length = 0;
+	
+	for (int y = 0; y < 3; y++)
 	{
-		for (int j = a; j <= b; j++)
+		if (input[y] == '\0')
 		{
-			cout << j << " ";
+			length = y;
+			break;
 		}
 
-		cout << endl;
 	}
 
+	return input[length];
 }
+
 
 int main()
 {
-	int a = 0, b = 0, c = 0;
 
-	cin >> a >> b >> c;
+	char str[3][10] = {};
 
-	Print(a, b, c);
+	for (int i = 0; i < 3; i++)
+	{
+		cin >> str[i];
+	}
+
+
+	for (int i = 0; i < 3; i++)
+	{
+		char a = findChar(str[i]);
+		cout << a;
+	}
+
 
 	return 0;
 }
