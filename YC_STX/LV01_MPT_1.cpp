@@ -6,17 +6,16 @@ char findChar(char* input)
 {
 	int length = 0;
 	
-	for (int y = 0; y < 3; y++)
+	for (int x = 0; x < 10; x++)
 	{
-		if (input[y] == '\0')
+		if (input[x] == '\0')
 		{
-			length = y;
+			length = x - 1;
+			return input[length];
 			break;
 		}
-
 	}
-
-	return input[length];
+	
 }
 
 
@@ -30,13 +29,10 @@ int main()
 		cin >> str[i];
 	}
 
-
 	for (int i = 0; i < 3; i++)
 	{
-		char a = findChar(str[i]);
-		cout << a;
+		cout << findChar(str[i]);
 	}
-
 
 	return 0;
 }

@@ -1092,5 +1092,32 @@
     <ClCompile Include="LV01_MPT_1.cpp">
       <Filter>중급\LV01\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV01_MPT2.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_3.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_4.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_5.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_6.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_7.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_8.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_9.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_MPT_10.cpp">
+      <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
