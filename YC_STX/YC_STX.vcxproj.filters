@@ -148,6 +148,15 @@
     <Filter Include="중급\LV01\복습문제">
       <UniqueIdentifier>{4d75d482-d5e3-49bc-a0cb-b0b5c2917e58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV02">
+      <UniqueIdentifier>{3075642b-eb4e-4fb1-a32d-8f1a4c8ac2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV02\연습문제">
+      <UniqueIdentifier>{f992b50c-dc84-4fa7-b742-93b14a4f4949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV02\복습문제">
+      <UniqueIdentifier>{1536f25c-e2dc-4876-a5db-df842531a98a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1118,6 +1127,9 @@
     </ClCompile>
     <ClCompile Include="LV01_MPT_10.cpp">
       <Filter>중급\LV01\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MPT_1.cpp">
+      <Filter>중급\LV02\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
