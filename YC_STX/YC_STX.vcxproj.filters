@@ -157,6 +157,9 @@
     <Filter Include="중급\LV02\복습문제">
       <UniqueIdentifier>{1536f25c-e2dc-4876-a5db-df842531a98a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV01\예제">
+      <UniqueIdentifier>{47702a7b-7063-4e49-80a1-21b1d2d2aa71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1133,6 +1136,12 @@
     </ClCompile>
     <ClCompile Include="LV02_MPT_4.cpp">
       <Filter>중급\LV02\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MPT_2.cpp">
+      <Filter>중급\LV02\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV01_EX_1.cpp">
+      <Filter>중급\LV01\예제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
