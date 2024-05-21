@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LV01_EX_1.cpp" />
+    <ClCompile Include="LV01_EX_2.cpp" />
+    <ClCompile Include="LV01_EX_3.cpp" />
     <ClCompile Include="LV01_MPT2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
