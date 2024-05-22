@@ -1149,5 +1149,8 @@
     <ClCompile Include="LV01_EX_3.cpp">
       <Filter>중급\LV01\예제</Filter>
     </ClCompile>
+    <ClCompile Include="LV01_EX_4.cpp">
+      <Filter>중급\LV01\예제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
