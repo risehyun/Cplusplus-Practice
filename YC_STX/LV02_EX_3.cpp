@@ -1,5 +1,5 @@
 /*
-	다중 카운트 예제
+	다중 flag
 */
 
 #include <iostream>
@@ -13,15 +13,25 @@ int main()
 
 	for (size_t y = 0; y < 3; y++)
 	{
-		int count = 0;
+		int flag = 0;
 		for (size_t x = 0; x < 5; x++)
 		{
 			if (arr[x] == input[y])
 			{
-				count++;
+				flag = 1;
+				break;
 			}
 		}
-		std::cout << input[y] << ":" << count;
+
+		if (flag == 1)
+		{
+			std::cout << "존재 O";
+		}
+		else
+		{
+			std::cout << "존재 X";
+		}
+
 	}
 
 	return 0;
