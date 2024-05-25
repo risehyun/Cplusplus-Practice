@@ -1170,5 +1170,8 @@
     <ClCompile Include="LV02_EX_4.cpp">
       <Filter>중급\LV02\예제</Filter>
     </ClCompile>
+    <ClCompile Include="LV02_MPT_5.cpp">
+      <Filter>중급\LV02\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
