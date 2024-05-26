@@ -1197,5 +1197,32 @@
     <ClCompile Include="LV02_MPT_12.cpp">
       <Filter>중급\LV02\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV02_MRV_1.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_2.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_3.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_4.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_5.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_6.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_7.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_8.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV02_MRV_9.cpp">
+      <Filter>중급\LV02\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
