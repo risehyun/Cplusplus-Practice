@@ -169,6 +169,9 @@
     <Filter Include="중급\LV03\연습문제">
       <UniqueIdentifier>{9973454e-81cd-4aaf-acee-cc070ab17179}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV03\복습문제">
+      <UniqueIdentifier>{a52f6244-2a4c-468d-844c-ca797c37c1dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1231,6 +1234,36 @@
       <Filter>중급\LV02\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV03_MPT_1.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_2.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_3.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_4.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MRV_5.cpp">
+      <Filter>중급\LV03\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_5.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_6.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_7.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_8.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_9.cpp">
+      <Filter>중급\LV03\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MPT_10.cpp">
       <Filter>중급\LV03\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
