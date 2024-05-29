@@ -1287,5 +1287,17 @@
     <ClCompile Include="LV03_MRV_8.cpp">
       <Filter>중급\LV03\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV03_MRV_9.cpp">
+      <Filter>중급\LV03\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MRV_10.cpp">
+      <Filter>중급\LV03\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MRV_11.cpp">
+      <Filter>중급\LV03\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV03_MRV_12.cpp">
+      <Filter>중급\LV03\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
