@@ -1,3 +1,5 @@
+// 방향을 표현하는 코딩 방법
+
 #include <iostream>
 
 int main() {
