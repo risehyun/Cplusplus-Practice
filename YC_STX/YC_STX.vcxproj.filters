@@ -1359,5 +1359,29 @@
     <ClCompile Include="LV04_MPT_10.cpp">
       <Filter>중급\LV04\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV04_MRV_1.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_2.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_3.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_4.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_5.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_6.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_7.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV04_MRV_8.cpp">
+      <Filter>중급\LV04\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
