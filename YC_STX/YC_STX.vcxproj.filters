@@ -190,6 +190,12 @@
     <Filter Include="중급\LV05\예제">
       <UniqueIdentifier>{aac74bb1-1ce7-4878-9366-65e52415a1ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV05\복습문제">
+      <UniqueIdentifier>{e611345c-76b9-40db-9345-a5d5c6a26d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV05\연습문제">
+      <UniqueIdentifier>{03953451-2c40-4c36-8102-50c34e373c4e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1391,6 +1397,45 @@
     </ClCompile>
     <ClCompile Include="LV05_MEX_1.cpp">
       <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MEX_2.cpp">
+      <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MEX_3.cpp">
+      <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MEX_4.cpp">
+      <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MEX_5.cpp">
+      <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MEX_6.cpp">
+      <Filter>중급\LV05\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_1.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_2.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_3.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_4.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_5.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_6.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_7.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MPT_8.cpp">
+      <Filter>중급\LV05\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

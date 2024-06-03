@@ -18,6 +18,7 @@ void test(int x) {
     // 아래의 함수를 호출하면 4025번까지 호출되고나서 stack Overflow 된다
     // test(x + 1);
 
+    // 종료 조건 == 기저사례가 반드시 있어야 한다.
     if (x == 3) {
         return;
         // test(2) 로 돌아감 -> test(1) -> ... main 으로 돌아감
