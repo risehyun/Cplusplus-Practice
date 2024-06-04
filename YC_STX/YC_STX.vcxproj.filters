@@ -1437,5 +1437,8 @@
     <ClCompile Include="LV05_MPT_8.cpp">
       <Filter>중급\LV05\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV05_MRV_1.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
