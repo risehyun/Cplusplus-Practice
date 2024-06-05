@@ -7,19 +7,17 @@ int main()
 
 	for (int i = 0; i < 7; i++)
 	{
-		cin >> i;
+		cin >> arr[i];
 	}
 
 	for (int i = 4; i > 0; i--)
 	{
-		for (int j = i - 1; j < 7; j++)
+		for (int j = 0; j <= 7 - i; j++)
 		{
 			cout << arr[j] << " ";
 		}
 		cout << endl;
 	}
-
-
 
 	return 0;
 }
