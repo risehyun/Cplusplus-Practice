@@ -1440,5 +1440,20 @@
     <ClCompile Include="LV05_MRV_1.cpp">
       <Filter>중급\LV05\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV05_MRV_2.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MRV_3.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MRV_4.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MRV_5.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV05_MRV_6.cpp">
+      <Filter>중급\LV05\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
