@@ -4,9 +4,10 @@ using namespace std;
 
 int level = 0, branch = 0;
 
-void exe(int index, int* count)
+void exe(int index/*, int* count*/)
 {
-	(*count)++;
+//	(*count)++;
+	cout << index << endl;
 
 	if (index == level)
 	{
@@ -15,7 +16,7 @@ void exe(int index, int* count)
 
 	for (int j = 0; j < branch; j++)
 	{
-		exe(index + 1, count);
+		exe(index + 1/*, count*/);
 	}
 
 }
@@ -27,9 +28,9 @@ int main()
 
 	std::cin >> level >> branch;
 
-	exe(0, &count);
+	exe(0/*, &count*/);
 
-	std::cout << count << "번 재귀 함수를 호출함";
+//	std::cout << count << "번 재귀 함수를 호출함";
 
 	return 0;
 }

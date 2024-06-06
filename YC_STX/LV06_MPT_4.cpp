@@ -2,17 +2,19 @@
 
 using namespace std;
 
-void exe(int index, int _level)
+void exe(int index, int level)
 {
-	cout << _level << endl;
+	cout << index << endl;
 
-	if (index == _level)
+	if (index == level)
 	{
 		return;
 	}
 
-
-	exe(index + 1, _level);
+	for (int i = 0; i < level; i++)
+	{
+		exe(index + 1, level);
+	}
 
 }
 
