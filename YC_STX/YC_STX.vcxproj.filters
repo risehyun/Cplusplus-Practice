@@ -1503,5 +1503,17 @@
     <ClCompile Include="LV06_MPT_8.cpp">
       <Filter>중급\LV06\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV06_MRV_1.cpp">
+      <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV06_MRV_2.cpp">
+      <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV06_MRV_3.cpp">
+      <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV06_MRV_4.cpp">
+      <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
