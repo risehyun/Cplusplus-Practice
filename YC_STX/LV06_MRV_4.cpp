@@ -19,10 +19,13 @@ int main()
 		{
 			if (str[y][x] != '_')
 			{
-				if (str[y + 1][x] == '_')
+				for (int i = 0; i < 4; i++)
 				{
-					str[y + 1][x] = str[y][x];
-					str[y][x] = '_';
+					if (str[y + i][x] == '_')
+					{
+						str[y + i][x] = str[y][x];
+						str[y][x] = '_';
+					}
 				}
 			}
 		}
