@@ -1518,5 +1518,8 @@
     <ClCompile Include="LV06_MRV_5.cpp">
       <Filter>중급\LV06\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV06_MRV_6.cpp">
+      <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
