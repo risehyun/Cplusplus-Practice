@@ -208,6 +208,12 @@
     <Filter Include="중급\LV06\예제">
       <UniqueIdentifier>{f2fa5fd0-d584-4414-a3c0-0de19e7688cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV07">
+      <UniqueIdentifier>{95c38ca4-504c-4610-bdc2-cf9c5d1789ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV07\예제">
+      <UniqueIdentifier>{5946e03f-de18-48eb-b46d-5afa6a2f5ffe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1526,6 +1532,9 @@
     </ClCompile>
     <ClCompile Include="LV06_MRV_8.cpp">
       <Filter>중급\LV06\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV07_MPT_EX.cpp">
+      <Filter>중급\LV07\예제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
