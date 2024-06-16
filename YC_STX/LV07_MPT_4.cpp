@@ -2,12 +2,6 @@
 
 using namespace std;
 
-void run(int floorLevel)
-{
-
-
-}
-
 char path[10] = "";
 
 int main()
@@ -38,11 +32,6 @@ int main()
 	}
 
 	cout << floorChar << floorNumber;
-
-	
-
-
-
 
 	return 0;
 }
