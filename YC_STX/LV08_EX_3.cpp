@@ -9,6 +9,11 @@ void test(int level)
 {
 	if (level == 3)
 	{
+		if (level >= 2 && path[level - 2] == path[level - 1])
+		{
+			return;
+		}
+
 		cout << path << endl;
 		return;
 	}

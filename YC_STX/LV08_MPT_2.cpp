@@ -9,23 +9,24 @@ void run(int level, int* count)
 {
 	if (level == 4)
 	{
-		cout << *count << endl;
+		if (!((path[0] == 'T' && path[1] == 'B')
+			|| (path[0] == 'B' && path[1] == 'T')
+			|| (path[1] == 'T' && path[2] == 'B')
+			|| (path[1] == 'B' && path[2] == 'T')
+			|| (path[2] == 'T' && path[3] == 'B')
+			|| (path[2] == 'B' && path[3] == 'T')
+			))
+		{
+			(*count)++;
+
+		}
+
 		cout << path << endl;
 		return;
 	}
 
 	for (int i = 0; i < 4; i++)
 	{
-		if (level >= 2)
-		{
-			if ((path[level - 2] == 'T' && path[level - 1] == 'B')
-				|| (path[level - 2] == 'B' && path[level - 1] == 'T'))
-			{
-				continue;
-			}
-		}
-
-		(*count)++;
 		path[level] = input[i];
 		run(level + 1, count);
 		path[level] = 0;
@@ -37,7 +38,6 @@ void run(int level, int* count)
 
 int main()
 {
-
 	int count = 0;
 
 	for (int i = 0; i < 4; i++)
@@ -46,6 +46,8 @@ int main()
 	}
 
 	run(0, &count);
+
+	cout << count << endl;
 
 	return 0;
 }
