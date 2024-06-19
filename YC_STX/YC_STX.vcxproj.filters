@@ -224,6 +224,9 @@
     <Filter Include="중급\LV08\복습문제">
       <UniqueIdentifier>{2e894952-9c8b-4f42-ae78-2fd85dd64254}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV08\LV09">
+      <UniqueIdentifier>{df8818cf-38c4-48d2-aa4e-0324498d9b41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1620,6 +1623,12 @@
     </ClCompile>
     <ClCompile Include="LV08_MPT_6.cpp">
       <Filter>중급\LV08\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV08_MRV_1.cpp">
+      <Filter>중급\LV08\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV09_MEX_1.cpp">
+      <Filter>중급\LV08\LV09</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
