@@ -1630,5 +1630,8 @@
     <ClCompile Include="LV09_MEX_1.cpp">
       <Filter>중급\LV08\LV09</Filter>
     </ClCompile>
+    <ClCompile Include="LV09_MEX_2.cpp">
+      <Filter>중급\LV08\LV09</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
