@@ -1177,6 +1177,7 @@
     </ClCompile>
     <ClCompile Include="LV09_MEX_1.cpp" />
     <ClCompile Include="LV09_MEX_2.cpp" />
+    <ClCompile Include="LV09_MEX_3.cpp" />
     <ClCompile Include="LV09_PT1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
