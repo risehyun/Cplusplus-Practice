@@ -9,42 +9,33 @@
 using namespace std;
 
 int arr[5] = { 3, 5, 1, 9, 7 };
-int result[5] = {};
 
 char input = ' ';
 
+void swap(int start, int end) {
+
+	int temp = 0;
+
+	temp = arr[start];
+	arr[start] = arr[end];
+	arr[end] = temp;
+
+}
+
 void shiftRight()
 {
-	for (int i = 0; i < 4; i++)
+	for (int i = 4; i > 0; i--)
 	{
-		arr[i + 1] = arr[i];
+		swap(i, i - 1);
 	}
-
-//	arr[0] = arr[4];
-
-
-	for (int i = 0; i < 5; i++)
-	{
-		cout << arr[i];
-	}
-	cout << endl;
 }
 
 void shiftLeft()
 {
 	for (int i = 0; i < 4; i++)
 	{
-		result[i] = arr[i + 1];
+		swap(i, i + 1);
 	}
-
-	result[4] = arr[0];
-
-
-	for (int i = 0; i < 5; i++)
-	{
-		cout << result[i];
-	}
-	cout << endl;
 }
 
 int main()
@@ -60,14 +51,14 @@ int main()
 
 		if (input == 'L')
 		{
-			shiftRight();
+			shiftLeft();
 		}
 	}
 
-	//for (int i = 0; i < 5; i++)
-	//{
-	//	cout << result[i];
-	//}
+	for (int i = 0; i < 5; i++)
+	{
+		cout << arr[i] << " ";
+	}
 
 	return 0;
 }
