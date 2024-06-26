@@ -1660,5 +1660,14 @@
     <ClCompile Include="LV09_MPT_1.cpp">
       <Filter>중급\LV09\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV09_MPT_2.cpp">
+      <Filter>중급\LV09\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV09_MPT_3.cpp">
+      <Filter>중급\LV09\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV09_MPT_4★.cpp">
+      <Filter>중급\LV09\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
