@@ -1,3 +1,5 @@
+#include <iostream>
+
 int main()
 {
 	//추가 확장이 매우 편리해진다.
