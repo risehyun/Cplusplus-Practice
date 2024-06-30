@@ -239,6 +239,9 @@
     <Filter Include="중급\LV10\예제">
       <UniqueIdentifier>{09f6c433-6a0d-486e-9384-d33e34b28841}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV10\연습문제">
+      <UniqueIdentifier>{02a67cde-8586-47ce-bb5e-728a0f7850e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1704,6 +1707,24 @@
     </ClCompile>
     <ClCompile Include="LV10_MEX_3.cpp">
       <Filter>중급\LV10\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_1.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_2.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_3.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_4.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_5.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_6.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
