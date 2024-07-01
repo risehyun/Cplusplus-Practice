@@ -1726,5 +1726,35 @@
     <ClCompile Include="LV10_MPT_6.cpp">
       <Filter>중급\LV10\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV10_MPT_7★.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_8.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_9.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_10.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_11.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_12.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_13.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_14.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_15★.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV10_MPT_16.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
