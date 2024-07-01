@@ -1756,5 +1756,8 @@
     <ClCompile Include="LV10_MPT_16.cpp">
       <Filter>중급\LV10\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV10_MPT_17★.cpp">
+      <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
