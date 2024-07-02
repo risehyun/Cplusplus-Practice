@@ -242,6 +242,12 @@
     <Filter Include="중급\LV10\연습문제">
       <UniqueIdentifier>{02a67cde-8586-47ce-bb5e-728a0f7850e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV11">
+      <UniqueIdentifier>{3cdf4a93-692e-4beb-bb57-dea7c0a46956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV11\예제">
+      <UniqueIdentifier>{86abfb12-55d0-498d-9a86-5d1b2c5cc13f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1758,6 +1764,9 @@
     </ClCompile>
     <ClCompile Include="LV10_MPT_17★.cpp">
       <Filter>중급\LV10\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV11_MEX_1.cpp">
+      <Filter>중급\LV11\예제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
