@@ -15,8 +15,13 @@ int main(void)
     cout << "e : " << e << ", f : " << f << endl;
     Swap(e, f);
     cout << "e : " << e << ", f : " << f << endl;
+    double g = 2.13, h = 3.14;
+    cout << "g : " << g << ", h : " << h << endl;
+    Swap<double>(g, h);
+    cout << "g : " << g << ", h : " << h << endl;
     return 0;
 }
+
 
 template <typename T>
 void Swap(T& a, T& b)
@@ -26,3 +31,9 @@ void Swap(T& a, T& b)
     a = b;
     b = temp;
 }
+
+//template <>
+//void Swap<double>(double&, double&)
+//{
+//    return;
+//}
