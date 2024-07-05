@@ -1771,5 +1771,11 @@
     <ClCompile Include="LV11_MEX_2.cpp">
       <Filter>중급\LV11\예제</Filter>
     </ClCompile>
+    <ClCompile Include="LV11_MEX_3.cpp">
+      <Filter>중급\LV11\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV11_MEX_4.cpp">
+      <Filter>중급\LV11\예제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

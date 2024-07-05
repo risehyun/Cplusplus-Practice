@@ -37,7 +37,7 @@ namespace ya
 			else
 			{
 				mTail->back = new Node();
-				mTail->back->back = data;
+				mTail->back->data = data;
 				mTail->back->back = nullptr;
 
 				mTail = mTail->back;
