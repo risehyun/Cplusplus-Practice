@@ -248,6 +248,9 @@
     <Filter Include="중급\LV11\예제">
       <UniqueIdentifier>{86abfb12-55d0-498d-9a86-5d1b2c5cc13f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV12">
+      <UniqueIdentifier>{4d2065c1-2a1a-4b03-b6bd-e3a846e3d790}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1776,6 +1779,9 @@
     </ClCompile>
     <ClCompile Include="LV11_MEX_4.cpp">
       <Filter>중급\LV11\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV12_MEX_1.cpp">
+      <Filter>중급\LV12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
