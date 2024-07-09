@@ -1792,5 +1792,8 @@
     <ClCompile Include="LV11_MHW_2.cpp">
       <Filter>중급\LV11\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="LV12_MHW_1.cpp">
+      <Filter>중급\LV12</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
