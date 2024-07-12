@@ -23,6 +23,8 @@ void AddNode(int data)
 		head = new Node;
 		head->data = data;
 		head->next = nullptr;
+
+		tail = head;
 	}
 	else
 	{
@@ -45,23 +47,23 @@ int main()
 	AddNode(5);
 
 	//while, for 문을 활용한 linked list 순회
-	//Node* p = head;
-	//while (true)
-	//{
-	//	if (p == nullptr)
-	//		break;
+	Node* p = head;
+	while (true)
+	{
+		if (p == nullptr)
+			break;
 
-	//	std::cout << p->data;
-	//	p = p->next;
-	//}
+		std::cout << p->data;
+		p = p->next;
+	}
 
 	// for문을 이용한 순회
 	// 임의의 포인터를 하나 만들어 head를 할당하고, 리스트의 마지막 tail의 next는 nullptr라는 점을 사용해서
 	// 처음부터 끝까지 순회한다.
-	for (Node* p = head; p != nullptr; p = p->next)
-	{
-		std::cout << p->data;
-	}
+	//for (Node* p = head; p != nullptr; p = p->next)
+	//{
+	//	std::cout << p->data;
+	//}
 
 	return 0;
 }
