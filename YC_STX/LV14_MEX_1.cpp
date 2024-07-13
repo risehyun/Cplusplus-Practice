@@ -9,9 +9,8 @@ struct Node
 };
 
 Node* head = nullptr;
-Node* tail = nullptr;
 
-// 푸시할 때마다 HEAD가 갱신되면서 아래에는 
+// 푸시할 때마다 HEAD가 위쪽으로 갱신되면서 head 아래에는 
 // 이전 노드들이 점점 쌓이는 형태로 데이터 탑 길이가 점차 늘어남
 void push(int value)
 {
