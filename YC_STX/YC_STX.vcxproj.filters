@@ -263,6 +263,15 @@
     <Filter Include="중급\LV12&amp;13">
       <UniqueIdentifier>{4d2065c1-2a1a-4b03-b6bd-e3a846e3d790}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV15">
+      <UniqueIdentifier>{a9af9478-d3eb-4db2-bef7-a9f4a6396f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV15\예제">
+      <UniqueIdentifier>{18117d12-80f8-4ee2-899e-bfae0fc31e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV15\문제풀이">
+      <UniqueIdentifier>{26fe4eb6-86f1-4867-8080-8027e632551a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1848,6 +1857,24 @@
     </ClCompile>
     <ClCompile Include="LV14_MPT_13☆.cpp">
       <Filter>중급\LV14\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MEX_1.cpp">
+      <Filter>중급\LV15\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_1.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_2.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_3.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_4.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_5.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

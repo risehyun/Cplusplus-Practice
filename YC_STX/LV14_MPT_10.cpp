@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 void run(string str)
 {
 	int strLength = str.length();
@@ -19,7 +17,7 @@ void run(string str)
 		{
 			rightCount++;
 
-			// 오른쪽 꺽세가 왼쪽보다 먼저 오면 비정상
+			// 오른쪽 꺽쇠가 왼쪽보다 먼저 오면 비정상
 			if (leftCount == 0)
 			{
 				cout << "비정상";
