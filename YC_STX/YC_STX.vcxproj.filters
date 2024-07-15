@@ -1876,5 +1876,35 @@
     <ClCompile Include="LV15_MPT_5.cpp">
       <Filter>중급\LV15\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="LV15_MPT_6.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_7.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_8.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_9.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_10.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_11.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_12.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_13.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_14.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="LV15_MPT_15.cpp">
+      <Filter>중급\LV15\문제풀이</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
