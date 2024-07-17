@@ -1762,7 +1762,10 @@
     <ClCompile Include="LV16_MEX_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LV16_MEX_2\LV16_MEX_2.cpp" />
+    <ClCompile Include="LV16_MEX_2\LV16_MEX_2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="LV16_MEX_3.cpp" />
     <ClCompile Include="RV06_RV11.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
