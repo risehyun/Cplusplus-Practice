@@ -4,26 +4,34 @@
 	https://www.inflearn.com/questions/247285/int-mat-new-int-row-%EC%A0%9C%EA%B0%80-%EC%9E%98-%EC%9D%B4%ED%95%B4%ED%95%9C%EA%B1%B0-%EB%A7%9E%EB%82%98%EC%9A%94
 */
 
-char value[8] = "2150463";
-char path[8] = "";
-int visited[8] = {};
+char value[8] = "0123456";
+//char path[8] = "";
+//int visited[8] = {};
 
 #include <iostream>
 
 using namespace std;
 
-void run(int now, int level, int** arr)
+void run(int now, int** arr)
 {
-	cout << value[now] << " ";
-	for (size_t i = 0; i < 5; i++)
+	if (now == 0)
 	{
-		if (arr[now][i] == 1
-			&& visited[i] == 0)
+		cout << "boss:" << value[now] << " " << endl;
+	}
+	else
+	{
+		cout << "under:" << value[now] << " ";
+	}
+//	cout << value[now];
+
+	for (int i = 0; i < 7; i++)
+	{
+		// 만약 자식 노드가 존재하면
+		if (arr[now][i] == 1)
 		{
-			path[level + 1] = value[i];
-			visited[i] = 1;
-			run(i, level + 1, arr);
-			path[level + 1] = 0;
+		//	cout << value[now];
+			// 그 자식 노드로 들어간다.
+			run(i, arr);
 		}
 	}
 }
@@ -60,9 +68,9 @@ int main()
 	//	cout << endl;
 	//}
 
-	run(0, 0, arr);
-
-
+	//path[0] = '2';
+	//visited[0] = 1;
+	run(0, arr);
 
 	return 0;
 }

@@ -281,6 +281,9 @@
     <Filter Include="중급\LV16\연습문제">
       <UniqueIdentifier>{7421bc9e-e8e8-4bcc-bb51-3a1e13aa96e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV16\복습문제">
+      <UniqueIdentifier>{3f0fb763-e062-45e3-ad45-13bc5b7dd835}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1930,8 +1933,11 @@
     <ClCompile Include="LV16_MEX_5.cpp">
       <Filter>중급\LV16\예제</Filter>
     </ClCompile>
-    <ClCompile Include="LV16_MPT_1.cpp">
+    <ClCompile Include="LV16_MPT_1★.cpp">
       <Filter>중급\LV16\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV16_MRV_7.cpp">
+      <Filter>중급\LV16\복습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

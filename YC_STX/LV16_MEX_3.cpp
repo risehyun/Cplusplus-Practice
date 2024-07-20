@@ -1,7 +1,8 @@
 #include <iostream>
 
-char value[6] = "TEQWA";
+char value[6] = "TBECD";
 char path[6] = "";
+int visited[5] = {};
 
 int map[5][5] =
 {
@@ -12,8 +13,8 @@ int map[5][5] =
 	0,0,0,0,0,
 };
 
-int visited[5] = {};
-char map1D[7] = " TBECD";
+
+//char map1D[7] = " TBECD";
 
 void run(int now, int level)
 {
@@ -34,9 +35,9 @@ void run(int now, int level)
 
 int main()
 {
-	path[0] = 'T';
-	visited[0] = 1;
-	run(0, 0);
+//	path[0] = 'T';
+//	visited[0] = 1;
+	run(1, 0);
 
 	return 0;
 }
