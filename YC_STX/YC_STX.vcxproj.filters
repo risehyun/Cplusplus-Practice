@@ -1942,5 +1942,14 @@
     <ClCompile Include="LV16_MRV_6.cpp">
       <Filter>중급\LV16\복습문제</Filter>
     </ClCompile>
+    <ClCompile Include="LV16_MRV_4.cpp">
+      <Filter>중급\LV16\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV16_MRV_5☆.cpp">
+      <Filter>중급\LV16\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV16_MRV_3.cpp">
+      <Filter>중급\LV16\복습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
