@@ -284,6 +284,9 @@
     <Filter Include="중급\LV16★\복습문제">
       <UniqueIdentifier>{3f0fb763-e062-45e3-ad45-13bc5b7dd835}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV17">
+      <UniqueIdentifier>{ab92bf4c-8a63-4007-8c47-ed86d23bb14c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -1956,6 +1959,18 @@
     </ClCompile>
     <ClCompile Include="LV16_MRV_1.cpp">
       <Filter>중급\LV16★\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_1.cpp">
+      <Filter>중급\LV17</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_2.cpp">
+      <Filter>중급\LV17</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_3.cpp">
+      <Filter>중급\LV17</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_4.cpp">
+      <Filter>중급\LV17</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
