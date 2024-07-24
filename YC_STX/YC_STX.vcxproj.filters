@@ -1972,5 +1972,8 @@
     <ClCompile Include="LV17_MEX_4.cpp">
       <Filter>중급\LV17</Filter>
     </ClCompile>
+    <ClCompile Include="LV16_MPT_4.cpp">
+      <Filter>중급\LV16★\연습문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
