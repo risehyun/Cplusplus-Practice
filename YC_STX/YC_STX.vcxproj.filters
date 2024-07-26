@@ -284,14 +284,17 @@
     <Filter Include="중급\LV16★\복습문제">
       <UniqueIdentifier>{3f0fb763-e062-45e3-ad45-13bc5b7dd835}</UniqueIdentifier>
     </Filter>
-    <Filter Include="중급\LV17">
+    <Filter Include="중급\LV17★">
       <UniqueIdentifier>{ab92bf4c-8a63-4007-8c47-ed86d23bb14c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="중급\LV17\연습문제">
+    <Filter Include="중급\LV17★\연습문제">
       <UniqueIdentifier>{86b300ce-ecc5-4c9f-922b-d35e2c1fc535}</UniqueIdentifier>
     </Filter>
-    <Filter Include="중급\LV17\복습문제">
+    <Filter Include="중급\LV17★\복습문제">
       <UniqueIdentifier>{ead338f5-9fc6-42c8-83eb-ac2f9b7eab6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV17★\예제">
+      <UniqueIdentifier>{189fef1c-e7e6-4544-b6b1-58942ac7dc75}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1966,18 +1969,6 @@
     <ClCompile Include="LV16_MRV_1.cpp">
       <Filter>중급\LV16★\복습문제</Filter>
     </ClCompile>
-    <ClCompile Include="LV17_MEX_1.cpp">
-      <Filter>중급\LV17</Filter>
-    </ClCompile>
-    <ClCompile Include="LV17_MEX_2.cpp">
-      <Filter>중급\LV17</Filter>
-    </ClCompile>
-    <ClCompile Include="LV17_MEX_3.cpp">
-      <Filter>중급\LV17</Filter>
-    </ClCompile>
-    <ClCompile Include="LV17_MEX_4.cpp">
-      <Filter>중급\LV17</Filter>
-    </ClCompile>
     <ClCompile Include="LV16_MPT_4.cpp">
       <Filter>중급\LV16★\연습문제</Filter>
     </ClCompile>
@@ -1988,31 +1979,52 @@
       <Filter>중급\LV16★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_2.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_1.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_3★.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_4★.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_5.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_7★.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MPT_8★.cpp">
-      <Filter>중급\LV17\연습문제</Filter>
+      <Filter>중급\LV17★\연습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MRV_3.cpp">
-      <Filter>중급\LV17\복습문제</Filter>
+      <Filter>중급\LV17★\복습문제</Filter>
     </ClCompile>
     <ClCompile Include="LV17_MRV_4.cpp">
-      <Filter>중급\LV17\복습문제</Filter>
+      <Filter>중급\LV17★\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MRV_5.cpp">
+      <Filter>중급\LV17★\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MRV_7.cpp">
+      <Filter>중급\LV17★\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MRV_8.cpp">
+      <Filter>중급\LV17★\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_1.cpp">
+      <Filter>중급\LV17★\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_2.cpp">
+      <Filter>중급\LV17★\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_3.cpp">
+      <Filter>중급\LV17★\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MEX_4.cpp">
+      <Filter>중급\LV17★\예제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
