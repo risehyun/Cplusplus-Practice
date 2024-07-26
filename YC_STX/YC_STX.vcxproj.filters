@@ -290,6 +290,9 @@
     <Filter Include="중급\LV17\연습문제">
       <UniqueIdentifier>{86b300ce-ecc5-4c9f-922b-d35e2c1fc535}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV17\복습문제">
+      <UniqueIdentifier>{ead338f5-9fc6-42c8-83eb-ac2f9b7eab6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -2004,6 +2007,12 @@
     </ClCompile>
     <ClCompile Include="LV17_MPT_8★.cpp">
       <Filter>중급\LV17\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MRV_3.cpp">
+      <Filter>중급\LV17\복습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV17_MRV_4.cpp">
+      <Filter>중급\LV17\복습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
