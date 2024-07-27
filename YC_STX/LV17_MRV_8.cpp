@@ -4,8 +4,6 @@ using namespace std;
 
 char map[4][3] = {};
 
-//void Print();
-
 void Input()
 {
 	for (int y = 0; y < 4; y++)
@@ -138,11 +136,7 @@ int main()
 {
 	Input();
 	Move();
-
-
-
 	Print();
-
 
 	return 0;
 }

@@ -296,6 +296,9 @@
     <Filter Include="중급\LV17★\예제">
       <UniqueIdentifier>{189fef1c-e7e6-4544-b6b1-58942ac7dc75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV18">
+      <UniqueIdentifier>{7edbc1e6-bbf7-44bb-9daa-87c8969f5e60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -2025,6 +2028,18 @@
     </ClCompile>
     <ClCompile Include="LV17_MEX_4.cpp">
       <Filter>중급\LV17★\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV18_MEX_1.cpp">
+      <Filter>중급\LV18</Filter>
+    </ClCompile>
+    <ClCompile Include="LV18_MEX_2.cpp">
+      <Filter>중급\LV18</Filter>
+    </ClCompile>
+    <ClCompile Include="LV18_MEX_3.cpp">
+      <Filter>중급\LV18</Filter>
+    </ClCompile>
+    <ClCompile Include="LV18_MEX_4.cpp">
+      <Filter>중급\LV18</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
