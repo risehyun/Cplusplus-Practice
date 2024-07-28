@@ -299,6 +299,12 @@
     <Filter Include="중급\LV18">
       <UniqueIdentifier>{7edbc1e6-bbf7-44bb-9daa-87c8969f5e60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="중급\LV18\예제">
+      <UniqueIdentifier>{f3928ba0-8d14-4e86-81ab-614b6c067f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="중급\LV18\연습문제">
+      <UniqueIdentifier>{e0be6e17-efb8-47d3-8bbc-2a180dd8bd32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -2030,16 +2036,19 @@
       <Filter>중급\LV17★\예제</Filter>
     </ClCompile>
     <ClCompile Include="LV18_MEX_1.cpp">
-      <Filter>중급\LV18</Filter>
+      <Filter>중급\LV18\예제</Filter>
     </ClCompile>
     <ClCompile Include="LV18_MEX_2.cpp">
-      <Filter>중급\LV18</Filter>
+      <Filter>중급\LV18\예제</Filter>
     </ClCompile>
     <ClCompile Include="LV18_MEX_3.cpp">
-      <Filter>중급\LV18</Filter>
+      <Filter>중급\LV18\예제</Filter>
     </ClCompile>
     <ClCompile Include="LV18_MEX_4.cpp">
-      <Filter>중급\LV18</Filter>
+      <Filter>중급\LV18\예제</Filter>
+    </ClCompile>
+    <ClCompile Include="LV18_MPT_2.cpp">
+      <Filter>중급\LV18\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
