@@ -305,6 +305,12 @@
     <Filter Include="중급\LV18\연습문제">
       <UniqueIdentifier>{e0be6e17-efb8-47d3-8bbc-2a180dd8bd32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="고급">
+      <UniqueIdentifier>{876903b7-b020-478f-add3-8954bc2ef031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="고급\예제">
+      <UniqueIdentifier>{376e6c66-f6de-4b31-8905-bf1ca279ece4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LV01_PT1.cpp">
@@ -2049,6 +2055,9 @@
     </ClCompile>
     <ClCompile Include="LV18_MPT_2.cpp">
       <Filter>중급\LV18\연습문제</Filter>
+    </ClCompile>
+    <ClCompile Include="APT_EX_01.cpp">
+      <Filter>고급\예제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
