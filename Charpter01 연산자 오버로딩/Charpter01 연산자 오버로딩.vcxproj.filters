@@ -34,6 +34,9 @@
     <Filter Include="6장_시퀀스컨테이너\01_vector">
       <UniqueIdentifier>{fb62391e-da8c-4447-8b8a-d7c438243f50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="6장_시퀀스컨테이너\03_list">
+      <UniqueIdentifier>{4df33c09-ca15-45d7-ab56-b7aa6af53671}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example1-4.cpp">
@@ -143,6 +146,9 @@
     </ClCompile>
     <ClCompile Include="EX6_31.cpp">
       <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_32.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
