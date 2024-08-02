@@ -162,5 +162,8 @@
     <ClCompile Include="EX6_36.cpp">
       <Filter>6장_시퀀스컨테이너\03_list</Filter>
     </ClCompile>
+    <ClCompile Include="EX6_37.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
