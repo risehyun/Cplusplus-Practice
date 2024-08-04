@@ -168,5 +168,26 @@
     <ClCompile Include="EX6_38.cpp">
       <Filter>6장_시퀀스컨테이너\03_list</Filter>
     </ClCompile>
+    <ClCompile Include="EX6_39.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_40.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_41.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_42.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_43.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_44.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX6_45.cpp">
+      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

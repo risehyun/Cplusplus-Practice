@@ -1,6 +1,11 @@
 #include <iostream>
 #include <list>
 
+/*
+	반복자를 이용해 가리키는 원소의 노드만을 잘라붙이거나, 반복자 하나의 순차열을 잘라붙이고자 한다면
+	다른 버전의 splice() 멤버 함수를 사용할 수 있다.
+*/
+
 using namespace std;
 int main()
 {
