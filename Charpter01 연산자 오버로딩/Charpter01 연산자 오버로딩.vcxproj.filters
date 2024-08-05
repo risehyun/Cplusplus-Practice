@@ -37,14 +37,14 @@
     <Filter Include="6장_시퀀스컨테이너\03_list">
       <UniqueIdentifier>{4df33c09-ca15-45d7-ab56-b7aa6af53671}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1장_연산자오버로딩">
+      <UniqueIdentifier>{0eb94c31-8fdd-45a0-9e30-9bc956314acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5장_STL소개">
+      <UniqueIdentifier>{56a43a73-96a8-4187-a213-4ef6687bc0c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Example1-4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Example1-5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="EX11_1.cpp">
       <Filter>11장_컨테이너어댑터\01_stack</Filter>
     </ClCompile>
@@ -188,6 +188,18 @@
     </ClCompile>
     <ClCompile Include="EX6_45.cpp">
       <Filter>6장_시퀀스컨테이너\03_list</Filter>
+    </ClCompile>
+    <ClCompile Include="EX1_1.cpp">
+      <Filter>1장_연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="EX5_1.cpp">
+      <Filter>5장_STL소개</Filter>
+    </ClCompile>
+    <ClCompile Include="EX1-4.cpp">
+      <Filter>1장_연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="EX1-5.cpp">
+      <Filter>1장_연산자오버로딩</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
