@@ -204,5 +204,8 @@
     <ClCompile Include="EX5_2.cpp">
       <Filter>5장_STL소개</Filter>
     </ClCompile>
+    <ClCompile Include="EX5_3.cpp">
+      <Filter>5장_STL소개</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
