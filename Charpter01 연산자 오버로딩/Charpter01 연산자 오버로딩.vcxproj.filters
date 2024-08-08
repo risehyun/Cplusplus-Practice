@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="6장_시퀀스컨테이너">
-      <UniqueIdentifier>{fa1f73f8-ddb1-4018-97e3-091657e3c550}</UniqueIdentifier>
-    </Filter>
     <Filter Include="11장_컨테이너어댑터">
       <UniqueIdentifier>{920715d9-4ac6-46ae-9901-3feb54d242fa}</UniqueIdentifier>
     </Filter>
@@ -28,20 +25,23 @@
     <Filter Include="11장_컨테이너어댑터\03_priority_queue">
       <UniqueIdentifier>{12271836-02e5-4de1-8d21-11490d9247fd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="6장_시퀀스컨테이너\02_deque">
-      <UniqueIdentifier>{20258f49-238d-4aba-892b-f0df32bef5e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="6장_시퀀스컨테이너\01_vector">
-      <UniqueIdentifier>{fb62391e-da8c-4447-8b8a-d7c438243f50}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="6장_시퀀스컨테이너\03_list">
-      <UniqueIdentifier>{4df33c09-ca15-45d7-ab56-b7aa6af53671}</UniqueIdentifier>
-    </Filter>
     <Filter Include="1장_연산자오버로딩">
       <UniqueIdentifier>{0eb94c31-8fdd-45a0-9e30-9bc956314acc}</UniqueIdentifier>
     </Filter>
     <Filter Include="5장_STL소개">
       <UniqueIdentifier>{56a43a73-96a8-4187-a213-4ef6687bc0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6장_시퀀스컨테이너%28완%29">
+      <UniqueIdentifier>{fa1f73f8-ddb1-4018-97e3-091657e3c550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6장_시퀀스컨테이너%28완%29\02_deque">
+      <UniqueIdentifier>{20258f49-238d-4aba-892b-f0df32bef5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6장_시퀀스컨테이너%28완%29\01_vector">
+      <UniqueIdentifier>{fb62391e-da8c-4447-8b8a-d7c438243f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6장_시퀀스컨테이너%28완%29\03_list">
+      <UniqueIdentifier>{4df33c09-ca15-45d7-ab56-b7aa6af53671}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,139 +55,139 @@
       <Filter>11장_컨테이너어댑터\03_priority_queue</Filter>
     </ClCompile>
     <ClCompile Include="EX6_1.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_2.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_3.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_4.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_5.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_6.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_7.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_8.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_9.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_10.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_11.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_12.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_13.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_14.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_15.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_16.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_17.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_18.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_19.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_20.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_21.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_22.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_23.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_24.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_25.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_26.cpp">
-      <Filter>6장_시퀀스컨테이너\01_vector</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\01_vector</Filter>
     </ClCompile>
     <ClCompile Include="EX6_27.cpp">
-      <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\02_deque</Filter>
     </ClCompile>
     <ClCompile Include="EX6_28.cpp">
-      <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\02_deque</Filter>
     </ClCompile>
     <ClCompile Include="EX6_29.cpp">
-      <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\02_deque</Filter>
     </ClCompile>
     <ClCompile Include="EX6_30.cpp">
-      <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\02_deque</Filter>
     </ClCompile>
     <ClCompile Include="EX6_31.cpp">
-      <Filter>6장_시퀀스컨테이너\02_deque</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\02_deque</Filter>
     </ClCompile>
     <ClCompile Include="EX6_32.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_33.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_34.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_35.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_36.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_37.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_38.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_39.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_40.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_41.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_42.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_43.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_44.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX6_45.cpp">
-      <Filter>6장_시퀀스컨테이너\03_list</Filter>
+      <Filter>6장_시퀀스컨테이너%28완%29\03_list</Filter>
     </ClCompile>
     <ClCompile Include="EX1_1.cpp">
       <Filter>1장_연산자오버로딩</Filter>
@@ -205,6 +205,9 @@
       <Filter>5장_STL소개</Filter>
     </ClCompile>
     <ClCompile Include="EX5_3.cpp">
+      <Filter>5장_STL소개</Filter>
+    </ClCompile>
+    <ClCompile Include="EX5_4.cpp">
       <Filter>5장_STL소개</Filter>
     </ClCompile>
   </ItemGroup>
