@@ -43,6 +43,9 @@
     <Filter Include="6장_시퀀스컨테이너%28완%29\03_list">
       <UniqueIdentifier>{4df33c09-ca15-45d7-ab56-b7aa6af53671}</UniqueIdentifier>
     </Filter>
+    <Filter Include="8장_알고리즘">
+      <UniqueIdentifier>{6781f6e2-97be-4199-b9c8-9211e7266fbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EX11_1.cpp">
@@ -209,6 +212,9 @@
     </ClCompile>
     <ClCompile Include="EX5_4.cpp">
       <Filter>5장_STL소개</Filter>
+    </ClCompile>
+    <ClCompile Include="EX8_1.cpp">
+      <Filter>8장_알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
