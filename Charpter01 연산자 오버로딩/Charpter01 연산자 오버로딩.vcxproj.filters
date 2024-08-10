@@ -216,5 +216,11 @@
     <ClCompile Include="EX8_1.cpp">
       <Filter>8장_알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="EX5_5.cpp">
+      <Filter>5장_STL소개</Filter>
+    </ClCompile>
+    <ClCompile Include="EX5_6.cpp">
+      <Filter>5장_STL소개</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
