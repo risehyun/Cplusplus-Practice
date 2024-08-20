@@ -28,9 +28,6 @@
     <Filter Include="1장_연산자오버로딩">
       <UniqueIdentifier>{0eb94c31-8fdd-45a0-9e30-9bc956314acc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="5장_STL소개">
-      <UniqueIdentifier>{56a43a73-96a8-4187-a213-4ef6687bc0c9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="6장_시퀀스컨테이너%28완%29">
       <UniqueIdentifier>{fa1f73f8-ddb1-4018-97e3-091657e3c550}</UniqueIdentifier>
     </Filter>
@@ -45,6 +42,12 @@
     </Filter>
     <Filter Include="8장_알고리즘">
       <UniqueIdentifier>{6781f6e2-97be-4199-b9c8-9211e7266fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5장_STL소개%28완%29">
+      <UniqueIdentifier>{56a43a73-96a8-4187-a213-4ef6687bc0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7장_연관컨테이너">
+      <UniqueIdentifier>{b557d496-7db5-4e1a-a4a9-539d94be6d5b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -196,7 +199,7 @@
       <Filter>1장_연산자오버로딩</Filter>
     </ClCompile>
     <ClCompile Include="EX5_1.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX1-4.cpp">
       <Filter>1장_연산자오버로딩</Filter>
@@ -205,46 +208,70 @@
       <Filter>1장_연산자오버로딩</Filter>
     </ClCompile>
     <ClCompile Include="EX5_2.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_3.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_4.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX8_1.cpp">
       <Filter>8장_알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="EX5_5.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_6.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_7.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_8.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_9.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_10.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_11.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_12.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_13.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
     <ClCompile Include="EX5_14.cpp">
-      <Filter>5장_STL소개</Filter>
+      <Filter>5장_STL소개%28완%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-14.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-15.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-16.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-17.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-18.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-19.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7장_연관컨테이너\7-20.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="EX7_1.cpp">
+      <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
