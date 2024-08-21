@@ -273,5 +273,11 @@
     <ClCompile Include="EX7_1.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
+    <ClCompile Include="EX1_0.cpp">
+      <Filter>1장_연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="EX7_2.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
