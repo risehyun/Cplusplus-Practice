@@ -279,5 +279,8 @@
     <ClCompile Include="EX7_2.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
+    <ClCompile Include="EX7_3.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
