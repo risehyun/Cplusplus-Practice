@@ -1,46 +1,40 @@
 #include<iostream>
-#include<algorithm>
 
 using namespace std;
 
-int main() 
+int main()
 {
-	int N; // B진법 수 N
-	int B; // B진법
-	string result = "";
+	int n = 0, k = 0;
+	int temp = 0, result = 0, count = 0;
 
-	cin >> N >> B;
+	cin >> n >> k;
 
-	while (N != 0)
+	for (int i = 1; i <= n; i++)
 	{
-		int temp = N % B;
-
-		// 숫자라면 해당 문자에서 '0'을 더해 그 숫자에 해당하는 문자로 만듦
-		if (0 <= temp && temp <= 9)
+		if (count == k)
 		{
-			result += (temp + '0');
-		}
-		// 값이 10 이상의 숫자일 경우 알파벳으로 출력 되야 한다.
-		// 따라서 - 10 + 'A'를 해서 문자로 만듦
-		// 예를 들어 10의 경우 문자 A로 나타내기 때문에
-		// 10을 A에 해당하는 65로 만들어 줘야 한다.
-		// 따라서 10에 -10을 빼서 0으로 만들어 준 다음 다시 'A'를 더해서
-		// 10 == 'A'가 되도록 한다.
-		else
-		{
-			result += (temp - 10 + 'A');
+			break;
 		}
 
-		N /= B;
+		temp = n % i;
+
+		if (temp == 0)
+		{
+			count++;
+			result = i;
+		}
 	}
 
-	int endIndex = result.length() - 1;
-
-	// 뒤에서부터 진법 변환 결과를 하나씩 출력한다
-	// reverse를 써서 아예 result를 뒤집어서 출력하는 방법도 있음
-	for (int i = endIndex; i >= 0; i--)
+	// n의 약수 개수인 count가 k보다 작은 경우가 있을 수 있다.
+	// 이 경우에는 k번째 약수가 존재하지 않기 때문에 따로 0을 출력한다.
+	if (count < k)
 	{
-		cout << result[i];
+		cout << 0;
+	}
+	// count가 k보다 큰 경우 해당하는 k번째 약수를 출력해준다.
+	else
+	{
+		cout << result;
 	}
 
 	return 0;
