@@ -1,40 +1,55 @@
 #include<iostream>
+#include <queue>
 
 using namespace std;
 
 int main()
 {
-	int n = 0, k = 0;
-	int temp = 0, result = 0, count = 0;
+	int n = 0;
 
-	cin >> n >> k;
-
-	for (int i = 1; i <= n; i++)
+	while (true)
 	{
-		if (count == k)
+		cin >> n;
+
+		if (n == -1)
 		{
 			break;
 		}
 
-		temp = n % i;
+		queue<int> s;
+		int sum = 0;
 
-		if (temp == 0)
+		for (int i = 1; i < n; i++)
 		{
-			count++;
-			result = i;
+			if (n % i == 0)
+			{
+				s.push(i);
+				sum += i;
+			}
 		}
-	}
 
-	// n의 약수 개수인 count가 k보다 작은 경우가 있을 수 있다.
-	// 이 경우에는 k번째 약수가 존재하지 않기 때문에 따로 0을 출력한다.
-	if (count < k)
-	{
-		cout << 0;
-	}
-	// count가 k보다 큰 경우 해당하는 k번째 약수를 출력해준다.
-	else
-	{
-		cout << result;
+		if (sum != n)
+		{
+			cout << n << " is NOT perfect." << '\n';
+		}
+		else
+		{
+			cout << n << " = ";
+
+			int size = s.size();
+			for (int i = 0; i < size; i++)
+			{
+				cout << s.front();
+				s.pop();
+
+				if (false == s.empty())
+				{
+					cout << " + ";
+				}
+			}
+			cout << '\n';
+		}
+
 	}
 
 	return 0;
