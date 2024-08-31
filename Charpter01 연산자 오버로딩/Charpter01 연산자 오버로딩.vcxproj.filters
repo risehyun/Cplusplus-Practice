@@ -249,25 +249,25 @@
     <ClCompile Include="EX5_14.cpp">
       <Filter>5장_STL소개%28완%29</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-14.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_14.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-15.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_15.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-16.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_16.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-17.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_17.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-18.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_18.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-19.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_19.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="..\7장_연관컨테이너\7-20.cpp">
+    <ClCompile Include="..\7장_연관컨테이너\EX7_20.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
     <ClCompile Include="EX7_1.cpp">
@@ -304,6 +304,12 @@
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
     <ClCompile Include="EX7_11.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="EX7_12.cpp">
+      <Filter>7장_연관컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="EX7_13.cpp">
       <Filter>7장_연관컨테이너</Filter>
     </ClCompile>
   </ItemGroup>

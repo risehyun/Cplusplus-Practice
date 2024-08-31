@@ -5,51 +5,37 @@ using namespace std;
 
 int main()
 {
-	int n = 0;
+	int angle[3] = { 0 };
+	int sum = 0;
 
-	while (true)
+	for (int i = 0; i < 3; i++)
 	{
-		cin >> n;
+		cin >> angle[i];
+		sum += angle[i];
+	}
 
-		if (n == -1)
+	if (angle[0] == 60 && angle[1] == 60 && angle[2] == 60)
+	{
+		cout << "Equilateral";
+	}
+	else if (sum == 180)
+	{
+		if (angle[0] == angle[1]
+			|| angle[0] == angle[2]
+			|| angle[1] == angle[2])
 		{
-			break;
+			cout << "Isosceles";
 		}
-
-		queue<int> s;
-		int sum = 0;
-
-		for (int i = 1; i < n; i++)
+		else if (angle[0] != angle[1]
+			&& angle[0] != angle[2]
+			&& angle[1] != angle[2])
 		{
-			if (n % i == 0)
-			{
-				s.push(i);
-				sum += i;
-			}
+			cout << "Scalene";
 		}
-
-		if (sum != n)
-		{
-			cout << n << " is NOT perfect." << '\n';
-		}
-		else
-		{
-			cout << n << " = ";
-
-			int size = s.size();
-			for (int i = 0; i < size; i++)
-			{
-				cout << s.front();
-				s.pop();
-
-				if (false == s.empty())
-				{
-					cout << " + ";
-				}
-			}
-			cout << '\n';
-		}
-
+	}
+	else
+	{
+		cout << "Error";
 	}
 
 	return 0;
