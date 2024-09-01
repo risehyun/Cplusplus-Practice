@@ -5,37 +5,60 @@ using namespace std;
 
 int main()
 {
-	int angle[3] = { 0 };
-	int sum = 0;
+	int input[3] = { 0 };
+	int max = 0;
 
-	for (int i = 0; i < 3; i++)
+	while (true)
 	{
-		cin >> angle[i];
-		sum += angle[i];
-	}
+		for (int i = 0; i < 3; i++)
+		{
+			cin >> input[i];
+		}
 
-	if (angle[0] == 60 && angle[1] == 60 && angle[2] == 60)
-	{
-		cout << "Equilateral";
-	}
-	else if (sum == 180)
-	{
-		if (angle[0] == angle[1]
-			|| angle[0] == angle[2]
-			|| angle[1] == angle[2])
+		if (input[0] == 0 && input[1] == 0 && input[2] == 0)
 		{
-			cout << "Isosceles";
+			break;
 		}
-		else if (angle[0] != angle[1]
-			&& angle[0] != angle[2]
-			&& angle[1] != angle[2])
+
+		// 오름차순 정렬
+		for (int i = 0; i < 3; i++)
 		{
-			cout << "Scalene";
+			for (int i = 0; i < 2; i++)
+			{
+				if (input[i] > input[i + 1])
+				{
+					int temp = input[i];
+					input[i] = input[i + 1];
+					input[i + 1] = temp;
+				}
+			}
 		}
-	}
-	else
-	{
-		cout << "Error";
+
+		max = input[2];
+
+		int sum = input[0] + input[1];
+
+		if (max >= sum)
+		{
+			cout << "Invalid" << '\n';
+		}
+		else if (input[0] != input[1]
+			&& input[0] != input[2]
+			&& input[1] != input[2])
+		{
+			cout << "Scalene" << '\n';
+		}
+		else
+		{
+			if (input[0] == input[1] && input[1] == input[2])
+			{
+				cout << "Equilateral" << '\n';
+			}
+			else
+			{
+				cout << "Isosceles" << '\n';
+			}
+		}
 	}
 
 	return 0;
