@@ -1,64 +1,32 @@
-#include<iostream>
-#include <queue>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
-
 int main()
 {
-	int input[3] = { 0 };
-	int max = 0;
+	int n = 0;
+	vector<int> v;
 
-	while (true)
+	cin >> n;
+
+	// 입력받은 값을 한자리씩 끊어서 벡터에 하나씩 저장
+	while (n > 0)
 	{
-		for (int i = 0; i < 3; i++)
-		{
-			cin >> input[i];
-		}
+		v.push_back(n % 10);
+		n /= 10;
+	}
 
-		if (input[0] == 0 && input[1] == 0 && input[2] == 0)
-		{
-			break;
-		}
+	// 오름차순으로 sort한 다음
+	sort(v.begin(), v.end());
 
-		// 오름차순 정렬
-		for (int i = 0; i < 3; i++)
-		{
-			for (int i = 0; i < 2; i++)
-			{
-				if (input[i] > input[i + 1])
-				{
-					int temp = input[i];
-					input[i] = input[i + 1];
-					input[i + 1] = temp;
-				}
-			}
-		}
+	// reverse 함수로 내부 데이터를 반대로 뒤집어줌
+	reverse(v.begin(), v.end());
 
-		max = input[2];
-
-		int sum = input[0] + input[1];
-
-		if (max >= sum)
-		{
-			cout << "Invalid" << '\n';
-		}
-		else if (input[0] != input[1]
-			&& input[0] != input[2]
-			&& input[1] != input[2])
-		{
-			cout << "Scalene" << '\n';
-		}
-		else
-		{
-			if (input[0] == input[1] && input[1] == input[2])
-			{
-				cout << "Equilateral" << '\n';
-			}
-			else
-			{
-				cout << "Isosceles" << '\n';
-			}
-		}
+	// 최종 결과 출력
+	for (int i = 0; i < v.size(); i++) 
+	{
+		cout << v[i];
 	}
 
 	return 0;
