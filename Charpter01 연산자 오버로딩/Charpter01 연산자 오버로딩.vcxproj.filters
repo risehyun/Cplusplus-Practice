@@ -315,5 +315,8 @@
     <ClCompile Include="EX1_2.cpp">
       <Filter>1장_연산자오버로딩</Filter>
     </ClCompile>
+    <ClCompile Include="EX8_2.cpp">
+      <Filter>8장_알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
