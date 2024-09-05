@@ -1,44 +1,39 @@
-// 선택정렬
-
 #include <iostream>
-#include <vector>
+#include <algorithm>
 
 using namespace std;
 int main()
 {
-	vector<int> v;
-	int n = 0, index = 0, tmp = 0;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
 
-	cin >> n;
+	int input[9] = { 0 };
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < 9; i++)
 	{
-		int input = 0;
-		cin >> input;
-
-		v.push_back(input);
+		cin >> input[i];
 	}
 
-	for (int i = 0; i < n - 1; i++)
+	sort(input, input + 9);
+
+	do
 	{
-		int min = 1001;
-		for (int j = i; j < n; j++)
+		int sum = 0;
+		for (int i = 0; i < 7; i++)
 		{
-			if (min > v[j])
-			{
-				min = v[j];
-				index = j;
-			}
+			sum += input[i];
 		}
 
-		tmp = v[i];
-		v[i] = v[index];
-		v[index] = tmp;
-	}
+		if (sum == 100)
+		{
+			break;
+		}
+	} while (next_permutation(input, input + 9));
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < 7; i++)
 	{
-		cout << v[i] << '\n';
+		cout << input[i] << '\n';
 	}
 
 	return 0;
