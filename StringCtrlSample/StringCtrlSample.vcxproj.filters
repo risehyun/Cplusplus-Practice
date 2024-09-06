@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\기타">
+      <UniqueIdentifier>{c58aa38c-2e99-4d24-8ac0-c97366282194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문법실습">
+      <UniqueIdentifier>{255d99b9-fb2e-4c28-a738-614163710b0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StringCtrlSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CMyString.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCtrlSample.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="00_typedef.cpp">
+      <Filter>소스 파일\문법실습</Filter>
+    </ClCompile>
+    <ClCompile Include="01.define.cpp">
+      <Filter>소스 파일\문법실습</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

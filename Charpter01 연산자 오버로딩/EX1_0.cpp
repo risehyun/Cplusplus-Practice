@@ -1,40 +1,19 @@
-#include <iostream>
-#include <algorithm>
-
+#include <iostream> 
 using namespace std;
-int main()
+
+int main(void) 
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+    int N = 0;
+    int cnt = 0;
 
-	int input[9] = { 0 };
+    cin >> N;
 
-	for (int i = 0; i < 9; i++)
-	{
-		cin >> input[i];
-	}
+    for (int i = 5; i <= N; i *= 5) 
+    {
+        cnt += (N / i);
+    }
 
-	sort(input, input + 9);
+    cout << cnt;
 
-	do
-	{
-		int sum = 0;
-		for (int i = 0; i < 7; i++)
-		{
-			sum += input[i];
-		}
-
-		if (sum == 100)
-		{
-			break;
-		}
-	} while (next_permutation(input, input + 9));
-
-	for (int i = 0; i < 7; i++)
-	{
-		cout << input[i] << '\n';
-	}
-
-	return 0;
+    return 0;
 }
