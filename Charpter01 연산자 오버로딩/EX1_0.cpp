@@ -1,19 +1,27 @@
-#include <iostream> 
-using namespace std;
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
-int main(void) 
+using namespace std;
+int main() 
 {
-    int N = 0;
-    int cnt = 0;
+    vector<int> v, back;
+    int N, input;
 
     cin >> N;
 
-    for (int i = 5; i <= N; i *= 5) 
-    {
-        cnt += (N / i);
+    for (int i = 0; i < N; i++) {
+        cin >> input;
+        v.push_back(input);
+        back.push_back(input);
     }
 
-    cout << cnt;
+    sort(v.begin(), v.end());
+    v.erase(unique(v.begin(), v.end()), v.end());
 
-    return 0;
+    for (int i = 0; i < N; i++) 
+    {
+        printf("%d ", lower_bound(v.begin(), v.end(), back[i]) - v.begin());
+    }
+
 }
