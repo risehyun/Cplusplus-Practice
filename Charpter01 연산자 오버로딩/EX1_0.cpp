@@ -1,27 +1,29 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <stack>
+#include <queue>
 
 using namespace std;
-int main() 
+
+int main()
 {
-    vector<int> v, back;
-    int N, input;
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
 
-    cin >> N;
+	queue<int> Q;
+	int N;
+	cin >> N;
+	for (int i = 1; i <= N; i++) 
+	{
+		Q.push(i);
+	}
 
-    for (int i = 0; i < N; i++) {
-        cin >> input;
-        v.push_back(input);
-        back.push_back(input);
-    }
+	while (Q.size() != 1) {
+		Q.pop();
+		Q.push(Q.front());
+		Q.pop();
+	}
 
-    sort(v.begin(), v.end());
-    v.erase(unique(v.begin(), v.end()), v.end());
+	cout << Q.front();
 
-    for (int i = 0; i < N; i++) 
-    {
-        printf("%d ", lower_bound(v.begin(), v.end(), back[i]) - v.begin());
-    }
-
+	return 0;
 }
