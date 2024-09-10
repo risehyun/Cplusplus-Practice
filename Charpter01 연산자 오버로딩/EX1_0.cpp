@@ -1,36 +1,39 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
 int main() 
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
+	ios_base::sync_with_stdio(0);
+	cin.tie(0); 
+	cout.tie(0);
 
-    int n = 0, value = 0;
-    vector<int> v;
+	int n = 0, m = 0;
+	cin >> n >> m;
 
-    cin >> n;
+	vector<string>input(n);
+	vector<string>result;
 
-    for (int i = 0; i < n; i++) 
-    {
-        cin >> value;
-        v.push_back(value);
-    }
+	for (int i = 0; i < n; i++)
+	{
+		cin >> input[i];
+	}
 
-    // 이진 탐색에 들어가기 전에 먼저 벡터 안의 데이터를 sort 해준다.
-    sort(v.begin(), v.end());
- 
-    cin >> n;
+	sort(input.begin(), input.end());
 
-    // 이진 탐색 함수를 사용해 벡터 내부에 입력받은 값이 존재하는지 확인한다.
-    for (int i = 0; i < n; i++)
-    {
-        cin >> value;
-        cout << binary_search(v.begin(), v.end(), value) << ' ';
-    }
+	string target = "";
+	int count = 0;
+	for (int i = 0; i < m; i++) 
+	{
+		cin >> target;
 
+		if (binary_search(input.begin(), input.end(), target))
+		{
+			count++;
+		}
+	}
+
+	cout << count << '\n';
 }
