@@ -1,7 +1,4 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
-
 using namespace std;
 
 int main() 
@@ -10,30 +7,24 @@ int main()
 	cin.tie(0); 
 	cout.tie(0);
 
-	int n = 0, m = 0;
-	cin >> n >> m;
+	int n = 0, k = 0, temp = 0;
+	int result = -100000;
+	int psum[100001] = { 0 };
 
-	vector<string>input(n);
-	vector<string>result;
+	cin >> n >> k;
 
-	for (int i = 0; i < n; i++)
+	for (int i = 1; i <= n; i++) 
 	{
-		cin >> input[i];
+		cin >> temp;
+		psum[i] = psum[i - 1] + temp;
 	}
 
-	sort(input.begin(), input.end());
-
-	string target = "";
-	int count = 0;
-	for (int i = 0; i < m; i++) 
+	for (int i = k; i <= n; i++) 
 	{
-		cin >> target;
-
-		if (binary_search(input.begin(), input.end(), target))
-		{
-			count++;
-		}
+		result = max(result, psum[i] - psum[i - k]);
 	}
 
-	cout << count << '\n';
+	cout << result;
+
+	return 0;
 }
