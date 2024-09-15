@@ -1,38 +1,29 @@
-#include <iostream>
-
+#include<iostream>
+#include<queue>
 using namespace std;
 
-const int MAX = 1000001;
+int n, k;
+queue<int>q;
 
-int N = 0, M = 0;
-long long arr[MAX] = { 0 }, psum[MAX] = { 0 }, cnt[1000] = { 0 };
-
-int main()
+int main(void)
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL); 
-    cout.tie(NULL);
-
-    cin >> N >> M;
-
-    for (int i = 1; i <= N; i++) 
-    {
-        cin >> arr[i];
-        psum[i] = (psum[i - 1] + arr[i]) % M;
-        cnt[psum[i]]++;
-    }
-
-    long long ans = 0;
-
-    for (int i = 0; i < M; i++) 
-    {
-        ans += cnt[i] * (cnt[i] - 1);
-    }
-
-    ans /= 2;
-    ans += cnt[0];
-
-    cout << ans;
-
-    return 0;
+	int i;
+	cin >> n >> k;
+	for (i = 1; i <= n; i++)
+		q.push(i);		//	큐에 n까지 삽입
+	cout << "<";
+	while (q.size() != 0)		//	큐가 빌 때까지 반복
+	{
+		for (i = 1; i < k; i++)
+		{
+			q.push(q.front());		//	k-1번째 원소를 맨 뒤에 삽입
+			q.pop();			// 	맨 앞에 있던 원소는 삭제
+		}
+		cout << q.front();		//	k번째 원소가 맨 앞에 오게 됨.
+		if (q.size() != 1)
+			cout << ", ";
+		q.pop();		//	k번째 원소 출력 후 삭제
+	}
+	cout << ">";
+	return 0;
 }
