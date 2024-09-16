@@ -1,29 +1,61 @@
 #include<iostream>
-#include<queue>
+#include<stack>
 using namespace std;
 
-int n, k;
-queue<int>q;
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
 
-int main(void)
-{
-	int i;
-	cin >> n >> k;
-	for (i = 1; i <= n; i++)
-		q.push(i);		//	큐에 n까지 삽입
-	cout << "<";
-	while (q.size() != 0)		//	큐가 빌 때까지 반복
+	int n = 0, m = 0, num = 0;
+	stack<int> s;
+
+	cin >> n;
+
+	for (int i = 0; i < n; i++) 
 	{
-		for (i = 1; i < k; i++)
+		cin >> m;
+		switch (m) 
 		{
-			q.push(q.front());		//	k-1번째 원소를 맨 뒤에 삽입
-			q.pop();			// 	맨 앞에 있던 원소는 삭제
+		case 1:
+			cin >> num;
+			s.push(num);
+			break;
+		case 2:
+			if (!s.empty()) 
+			{
+				cout << s.top() << "\n";
+				s.pop();
+			}
+			else
+			{
+				cout << "-1\n";
+			}
+			break;
+		case 3:
+			cout << s.size() << "\n";
+			break;
+		case 4:
+			if (s.empty())
+			{
+				cout << "1\n";
+			}
+			else
+			{
+				cout << "0\n";
+			}
+			break;
+		case 5:
+			if (!s.empty())
+			{
+				cout << s.top() << "\n";
+			}
+			else
+			{
+				cout << "-1\n";
+			}
+			break;
 		}
-		cout << q.front();		//	k번째 원소가 맨 앞에 오게 됨.
-		if (q.size() != 1)
-			cout << ", ";
-		q.pop();		//	k번째 원소 출력 후 삭제
 	}
-	cout << ">";
 	return 0;
 }
