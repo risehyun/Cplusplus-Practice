@@ -1,61 +1,43 @@
-#include<iostream>
-#include<stack>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <map>
+
 using namespace std;
 
-int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+int main() 
+{
+    int n = 0, m = 0, cnt = 0;
+    string s;
+    vector<string> result;
+    map<string, bool> list;
 
-	int n = 0, m = 0, num = 0;
-	stack<int> s;
+    cin >> n >> m;
 
-	cin >> n;
+    for (int i = 0; i < n; i++) 
+    {
+        cin >> s;
+        list.insert(make_pair(s, true));
+    }
 
-	for (int i = 0; i < n; i++) 
-	{
-		cin >> m;
-		switch (m) 
-		{
-		case 1:
-			cin >> num;
-			s.push(num);
-			break;
-		case 2:
-			if (!s.empty()) 
-			{
-				cout << s.top() << "\n";
-				s.pop();
-			}
-			else
-			{
-				cout << "-1\n";
-			}
-			break;
-		case 3:
-			cout << s.size() << "\n";
-			break;
-		case 4:
-			if (s.empty())
-			{
-				cout << "1\n";
-			}
-			else
-			{
-				cout << "0\n";
-			}
-			break;
-		case 5:
-			if (!s.empty())
-			{
-				cout << s.top() << "\n";
-			}
-			else
-			{
-				cout << "-1\n";
-			}
-			break;
-		}
-	}
-	return 0;
+    for (int i = 0; i < m; i++) 
+    {
+        cin >> s;
+        if (list[s]) 
+        {
+            result.push_back(s);
+            cnt++;
+        }
+    }
+
+    cout << cnt << '\n';
+    sort(result.begin(), result.end());
+
+    for (int i = 0; i < result.size(); i++) 
+    {
+        cout << result[i] << '\n';
+    }
+
+    return 0;
 }
