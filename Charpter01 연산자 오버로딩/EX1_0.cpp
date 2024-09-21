@@ -1,26 +1,46 @@
 #include <iostream>
+#include <stack>
+
 using namespace std;
+
+stack<int> s;
+int N = 0, T = 0, cnt = 1;
 
 int main() 
 {
-	ios_base::sync_with_stdio(0);
+	ios_base::sync_with_stdio(0); 
 	cin.tie(0);
 	cout.tie(0);
 
-	int a = 0, b = 0, c = 0, d = 0, e = 0, f = 0;
+	cin >> N;
 
-	cin >> a >> b >> c >> d >> e >> f;
-
-	for (int x = -999; x <= 999; x++)
+	while (N--) 
 	{
-		for (int y = -999; y <= 999; y++)
+		cin >> T;
+
+		if (T == cnt)
 		{
-			if ((a * x + b * y == c) && (d * x + e * y == f))
-			{
-				cout << x << ' ' << y;
-				break;
-			}
+			cnt++;
 		}
+		else
+		{
+			s.push(T);
+		}
+
+		while (!s.empty() && s.top() == cnt) 
+		{
+			s.pop();
+			cnt++;
+		}
+	}
+
+	if (s.empty())
+	{
+		cout << "Nice";
+	}
+	else
+	{
+		cout << "Sad";
 	}
 
 	return 0;
