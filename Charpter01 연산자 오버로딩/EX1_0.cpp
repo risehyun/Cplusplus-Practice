@@ -5,6 +5,6 @@ int main()
 {
     long long n;
     cin >> n;
-    cout << n * n << '\n' << 2;
+    cout << (n - 1) * n / 2 << '\n' << 2;
     return 0;
 }
