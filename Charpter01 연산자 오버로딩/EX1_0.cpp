@@ -1,5 +1,5 @@
 #include <iostream>
-#include <map>
+#include <queue>
 using namespace std;
 
 int main() 
@@ -8,27 +8,74 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    map<string, string, greater<>> m;
-    int n = 0;
+    queue<int> q;
+    string command = "";
+    int n = 0, input = 0;
 
     cin >> n;
 
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
     {
-        string name, EorL;
+        cin >> command;
 
-        cin >> name >> EorL;
-        m[name] = EorL;
-    }
-
-    map<string, string>::iterator it;
-
-    for (it = m.begin(); it != m.end(); it++) 
-    {
-        if (it->second == "enter") 
+        if (command == "push")
         {
-            cout << it->first << "\n";
+            cin >> input;
+            q.push(input);
         }
+		else if (command == "pop") 
+		{
+			if (q.empty()) 
+			{
+				cout << "-1" << '\n';
+			}
+			else 
+			{
+				cout << q.front() << '\n';
+				q.pop();
+			}
+		}
+		else if (command == "front") 
+		{
+			if (q.empty()) 
+			{
+				cout << "-1" << '\n';
+			}
+			else 
+			{
+				cout << q.front() << '\n';
+			}
+		}
+		else if (command == "back") 
+		{
+			if (q.empty()) 
+			{
+				cout << "-1" << '\n';
+			}
+			else 
+			{
+				cout << q.back() << '\n';
+			}
+		}
+		else if (command == "size")
+		{
+			cout << q.size() << '\n';
+		}
+		else if (command == "empty")
+		{
+			cout << q.empty() << '\n';
+		}
+		else if (command == "top") 
+		{
+			if (q.empty()) 
+			{
+				cout << "-1" << '\n';
+			}
+			else 
+			{
+				cout << q.front() << '\n';
+			}
+		}
     }
 
     return 0;
