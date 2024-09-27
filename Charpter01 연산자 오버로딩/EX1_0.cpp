@@ -1,82 +1,53 @@
 #include <iostream>
-#include <queue>
+#include <stack>
+#include <vector>
 using namespace std;
 
-int main() 
-{
-    ios_base::sync_with_stdio(0);
-    cin.tie(NULL);
-    cout.tie(NULL);
+int main(void) {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
-    queue<int> q;
-    string command = "";
-    int n = 0, input = 0;
+	stack<int> sequence;
+	vector<char> ans;
+	int n = 0, cur_num = 0;
 
-    cin >> n;
+	sequence.push(cur_num);
+	cur_num++;
 
-    for (int i = 0; i < n; i++)
-    {
-        cin >> command;
+	int num;
+	bool valid = true;
 
-        if (command == "push")
-        {
-            cin >> input;
-            q.push(input);
-        }
-		else if (command == "pop") 
-		{
-			if (q.empty()) 
-			{
-				cout << "-1" << '\n';
-			}
-			else 
-			{
-				cout << q.front() << '\n';
-				q.pop();
-			}
-		}
-		else if (command == "front") 
-		{
-			if (q.empty()) 
-			{
-				cout << "-1" << '\n';
-			}
-			else 
-			{
-				cout << q.front() << '\n';
-			}
-		}
-		else if (command == "back") 
-		{
-			if (q.empty()) 
-			{
-				cout << "-1" << '\n';
-			}
-			else 
-			{
-				cout << q.back() << '\n';
-			}
-		}
-		else if (command == "size")
-		{
-			cout << q.size() << '\n';
-		}
-		else if (command == "empty")
-		{
-			cout << q.empty() << '\n';
-		}
-		else if (command == "top") 
-		{
-			if (q.empty()) 
-			{
-				cout << "-1" << '\n';
-			}
-			else 
-			{
-				cout << q.front() << '\n';
-			}
-		}
-    }
+	cin >> n;
 
-    return 0;
+
+	for (int i = 0; i < n; i++) 
+	{
+		cin >> num;
+		// stack 의 top이 num과 같아질때까지 반복
+		while (sequence.top() < num) 
+		{
+			sequence.push(cur_num);
+			cur_num++;
+			ans.push_back('+');
+		}
+		if (sequence.top() == num) 
+		{
+			sequence.pop();
+			ans.push_back('-');
+		}
+		else {
+			valid = false;
+		}
+	}
+
+	if (!valid) {
+		cout << "NO" << '\n';
+	}
+	else {
+		for (auto ch : ans) {
+			cout << ch << '\n';
+		}
+	}
+
 }
