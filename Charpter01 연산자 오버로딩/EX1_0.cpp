@@ -1,20 +1,33 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
-int main() 
+int main()
 {
-    int a1 = 0, a0 = 0, c = 0, n0 = 0;
+	ios::sync_with_stdio(0); 
+	cin.tie(0);
+	cout.tie(0);
 
-    cin >> a1 >> a0 >> c >> n0;
+	int N = 0, M = 0, n = 0;
+	vector<int> v;
 
-    if (a1 * n0 + a0 <= c * n0 && a1 <= c)
-    {
-        cout << 1 << endl;
-    }
-    else
-    {
-        cout << 0 << endl;
-    }
+	cin >> N;
+	while (N--)
+	{
+		cin >> n;
+		v.push_back(n);
+	}
 
-    return 0;
+	sort(v.begin(), v.end());
+
+	cin >> M;
+
+	while (M--)
+	{
+		cin >> n;
+		cout << upper_bound(v.begin(), v.end(), n)
+			- lower_bound(v.begin(), v.end(), n) << ' ';
+	}
 }
