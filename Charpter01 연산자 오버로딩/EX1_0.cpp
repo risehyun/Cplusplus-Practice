@@ -1,33 +1,26 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <map>
 using namespace std;
 
-int main()
+int main(void)
 {
-	ios::sync_with_stdio(0); 
-	cin.tie(0);
-	cout.tie(0);
+	map<int, bool> m;
+	int N = 0, M = 0, num = 0;
 
-	int N = 0, M = 0, n = 0;
-	vector<int> v;
+	cin >> N >> M;
 
-	cin >> N;
-	while (N--)
+	for (int i = 0; i < N + M; i++)
 	{
-		cin >> n;
-		v.push_back(n);
+		cin >> num;
+		if (m[num] == true)
+		{
+			m.erase(num);
+		}
+		else
+		{
+			m[num] = true;
+		}
 	}
 
-	sort(v.begin(), v.end());
-
-	cin >> M;
-
-	while (M--)
-	{
-		cin >> n;
-		cout << upper_bound(v.begin(), v.end(), n)
-			- lower_bound(v.begin(), v.end(), n) << ' ';
-	}
+	cout << m.size();
 }
