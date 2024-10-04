@@ -1,26 +1,36 @@
 #include <iostream>
-#include <map>
 using namespace std;
 
-int main(void)
+int main()
 {
-	map<int, bool> m;
-	int N = 0, M = 0, num = 0;
+    string str = "";
+    char arr[] = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
+    int cnt = 0;
 
-	cin >> N >> M;
+    while (getline(cin, str))
+    {
+        if (str == "#")
+        {
+            break;
+        }
 
-	for (int i = 0; i < N + M; i++)
-	{
-		cin >> num;
-		if (m[num] == true)
-		{
-			m.erase(num);
-		}
-		else
-		{
-			m[num] = true;
-		}
-	}
+        cnt = 0;
 
-	cout << m.size();
+        for (int i = 0; i < str.length(); i++)
+        {
+            for (char ch : arr)
+            {
+                if (str[i] == ch)
+                {
+                    cnt++;
+                }
+            }
+        }
+
+        cout << cnt << '\n';
+
+    }
+
+    return 0;
+
 }
