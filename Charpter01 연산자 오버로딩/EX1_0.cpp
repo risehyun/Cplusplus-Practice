@@ -1,36 +1,27 @@
 #include <iostream>
+#include <set>
 using namespace std;
 
 int main()
 {
-    string str = "";
-    char arr[] = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
-    int cnt = 0;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
 
-    while (getline(cin, str))
+    set<string> M;
+    string S;
+
+    cin >> S;
+
+    int i, j, l = S.length();
+
+    for (i = 0; i < l; i++)
     {
-        if (str == "#")
+        for (j = i; j < l; j++)
         {
-            break;
+            M.insert(S.substr(i, j - i + 1));
         }
-
-        cnt = 0;
-
-        for (int i = 0; i < str.length(); i++)
-        {
-            for (char ch : arr)
-            {
-                if (str[i] == ch)
-                {
-                    cnt++;
-                }
-            }
-        }
-
-        cout << cnt << '\n';
-
     }
 
-    return 0;
-
+    cout << M.size();
 }
