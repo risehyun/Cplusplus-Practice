@@ -1,27 +1,35 @@
-#include <iostream>
-#include <set>
+#include<iostream>
+
 using namespace std;
+
+int divide(int x, int y)
+{
+    if (x % y == 0)
+    {
+        return y;
+    }
+    else
+    {
+        return divide(y, x % y);
+    }
+}
 
 int main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    int T = 0, A = 0, B = 0;
+    cin >> T;
 
-    set<string> M;
-    string S;
-
-    cin >> S;
-
-    int i, j, l = S.length();
-
-    for (i = 0; i < l; i++)
+    for (int i = 0; i < T; i++)
     {
-        for (j = i; j < l; j++)
+        cin >> A >> B;
+
+        if (A >= B)
         {
-            M.insert(S.substr(i, j - i + 1));
+            cout << A * B / divide(A, B) << "\n";
+        }
+        else
+        {
+            cout << A * B / divide(B, A) << "\n";
         }
     }
-
-    cout << M.size();
 }
