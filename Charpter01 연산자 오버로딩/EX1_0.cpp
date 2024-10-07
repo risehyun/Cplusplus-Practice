@@ -1,35 +1,18 @@
-#include<iostream>
+#include <iostream>
 
-using namespace std;
-
-int divide(int x, int y)
+int GCD(int a, int b)
 {
-    if (x % y == 0)
-    {
-        return y;
-    }
-    else
-    {
-        return divide(y, x % y);
-    }
+	if (b == 0)
+		return a;
+
+	return GCD(b, a % b);
 }
 
 int main()
 {
-    int T = 0, A = 0, B = 0;
-    cin >> T;
+	long long int A, B, gcd;
+	std::cin >> A >> B;
 
-    for (int i = 0; i < T; i++)
-    {
-        cin >> A >> B;
-
-        if (A >= B)
-        {
-            cout << A * B / divide(A, B) << "\n";
-        }
-        else
-        {
-            cout << A * B / divide(B, A) << "\n";
-        }
-    }
+	gcd = GCD(A, B);
+	std::cout << A * B / gcd;
 }
