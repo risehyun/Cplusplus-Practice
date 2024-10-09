@@ -1,49 +1,16 @@
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
-int gcd(int a, int b)
+int main()
 {
-	if (b == 0) return a;
-	return gcd(b, a % b);
-}
-
-int main(void)
-{
-	ios::sync_with_stdio(0);
+	ios_base::sync_with_stdio(0);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int n = 0;
+	int N = 0;
+	cin >> N;
 
-	cin >> n;
-
-	vector <int> v(n), d;
-
-	// 입력을 이렇게 받는 방법도 있다
-	for (auto& i : v)
-	{
-		cin >> i;
-	}
-
-	for (int i = 0; i < n - 1; i++)
-	{
-		d.push_back(v[i + 1] - v[i]);
-	}
-
-	int g = d[0];
-
-	for (int i = 0; i < d.size(); i++)
-	{
-		g = gcd(g, d[i]);
-	}
-
-	int dist = v[n - 1] - v[0];
-	int ans = dist / g;
-	ans -= n - 1;
-
-	cout << ans;
+	cout << N * (N - 1);
 
 	return 0;
 }
