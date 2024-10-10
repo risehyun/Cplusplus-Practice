@@ -1,16 +1,27 @@
 #include <iostream>
 using namespace std;
 
+typedef long long ll;
+string str;
+int cnt[26];
+
 int main()
 {
-	ios_base::sync_with_stdio(0);
+	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int N = 0;
-	cin >> N;
+	cin >> str;
 
-	cout << N * (N - 1);
+	for (char a : str)
+	{
+		cnt[a - 'a']++;
+	}
+
+	for (int i = 0; i < 26; i++)
+	{
+		cout << cnt[i] << " ";
+	}
 
 	return 0;
 }
