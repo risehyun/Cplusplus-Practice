@@ -1,19 +1,25 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
-int fibo(int num)
-{
-    if (num == 0)
-        return 0;
-    if (num == 1)
-        return 1;
-    return fibo(num - 2) + fibo(num - 1);
-}
-
-int num;
+int c;
+int n;
 
 int main()
 {
-    cin >> num;
-    cout << fibo(num);
+    cin >> c;
+
+    vector<int> factor;
+
+    for (int i = 0; i < c; i++)
+    {
+        cin >> n;
+        factor.push_back(n);
+    }
+
+    sort(factor.begin(), factor.end());
+    int fir = factor.front();
+    int sec = factor.back();
+    cout << fir * sec;
 }
