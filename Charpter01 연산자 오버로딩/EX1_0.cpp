@@ -1,25 +1,32 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#define MAX 9
 using namespace std;
 
-int c;
-int n;
+int n, m;
+int arr[MAX] = { 0, };
+bool visited[MAX] = { 0, };
 
-int main()
+void dfs(int num, int cnt)
 {
-    cin >> c;
-
-    vector<int> factor;
-
-    for (int i = 0; i < c; i++)
+    if (cnt == m)
     {
-        cin >> n;
-        factor.push_back(n);
+        for (int i = 0; i < m; i++)
+            cout << arr[i] << ' ';
+        cout << '\n';
+        return;
     }
 
-    sort(factor.begin(), factor.end());
-    int fir = factor.front();
-    int sec = factor.back();
-    cout << fir * sec;
+    for (int i = num; i <= n; i++)
+    {
+        visited[i] = true;
+        arr[cnt] = i;
+        dfs(i, cnt + 1);
+        visited[i] = false;
+    }
+}
+
+int main() 
+{
+    cin >> n >> m;
+    dfs(1, 0);
 }
