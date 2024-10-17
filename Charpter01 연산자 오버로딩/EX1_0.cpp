@@ -1,32 +1,31 @@
 #include <iostream>
-#define MAX 9
+#include <vector>
+#include <algorithm>
+#include <climits>
 using namespace std;
-
-int n, m;
-int arr[MAX] = { 0, };
-bool visited[MAX] = { 0, };
-
-void dfs(int num, int cnt)
-{
-    if (cnt == m)
-    {
-        for (int i = 0; i < m; i++)
-            cout << arr[i] << ' ';
-        cout << '\n';
-        return;
-    }
-
-    for (int i = num; i <= n; i++)
-    {
-        visited[i] = true;
-        arr[cnt] = i;
-        dfs(i, cnt + 1);
-        visited[i] = false;
-    }
-}
+vector <vector<int>> v;
+int n;
+int result = INT_MAX;
 
 int main() 
 {
-    cin >> n >> m;
-    dfs(1, 0);
+
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+
+	cin >> n;
+
+	vector <vector <int>>dp(n + 1, vector<int>(3, 0));
+
+	for (int i = 1; i <= n; i++) 
+	{
+		cin >> dp[i][0] >> dp[i][1] >> dp[i][2];
+		dp[i][0] += min(dp[i - 1][1], dp[i - 1][2]);
+		dp[i][1] += min(dp[i - 1][0], dp[i - 1][2]);
+		dp[i][2] += min(dp[i - 1][0], dp[i - 1][1]);
+	}
+
+	cout << min(dp[n][0], min(dp[n][1], dp[n][2]));
+
 }
