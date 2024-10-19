@@ -1,35 +1,30 @@
 #include <iostream>
+const int N = 8;
+int n, m, a[N];
 
-int arr[9] = { 0, };
-bool visited[9] = { false, };
-
-using namespace std;
-void dfs(int num, int cnt, int n, int m)
+void dfs(int cnt) 
 {
-	if (cnt == m)
-	{
-		for (int i = 0; i < m; i++)
-			cout << arr[i] << ' ';
 
-		cout << '\n';
-		return;
-	}
+    if (cnt == m) 
+    {
+        for (int i = 0; i < m; i++) std::cout << a[i] << ' ';
+        std::cout << '\n';
+        return;
+    }
 
-	for (int i = num; i <= n; i++)
-	{
-		if (!visited[i])
-		{
-			visited[i] = true;
-			arr[cnt] = i;
-			dfs(i + 1, cnt + 1, n, m);
-			visited[i] = false;
-		}
-	}
+    for (int i = 1; i <= n; i++) 
+    {
+        a[cnt] = i;
+        dfs(cnt + 1);
+    }
+
 }
 
-int main()
+int main() 
 {
-	int n, m;
-	cin >> n >> m;
-	dfs(1, 0, n, m);
+    std::cin >> n >> m;
+
+    dfs(0);
+
+    return 0;
 }
