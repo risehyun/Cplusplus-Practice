@@ -1,33 +1,50 @@
 #include <iostream>
-#include <algorithm>
+#include <vector>
+# define MAX 8
+
 using namespace std;
-int N;
-int num[1000];
-int dp_left[1000], dp_right[1000];
 
-int main()
+int arr[MAX];
+bool visited[MAX];
+vector<int> vec;
+int cnt, n, m;
+
+void Print() 
 {
-	cin >> N;
-	for (int i = 0; i < N; i++) cin >> num[i];
+    for (int i = 0; i < vec.size(); i++)
+        cout << vec[i] << " ";
+    cout << '\n';
+    return;
+}
 
-	fill_n(dp_left, 1000, 1);
-	fill_n(dp_right, 1000, 1);
+void DFS(int cnt) 
+{
+    if (cnt == m) 
+    {
+        Print();
+        return;
+    }
 
-	for (int i = 0; i < N; i++) {
-		for (int j = i - 1; j >= 0; j--) {
-			if ((num[j] < num[i]) && (dp_left[i] < dp_left[j] + 1)) dp_left[i] = dp_left[j] + 1;
-		}
-	}
-	for (int i = N - 1; i >= 0; i--) {
-		for (int j = i + 1; j < N; j++) {
-			if ((num[j] < num[i]) && (dp_right[i] < dp_right[j] + 1)) dp_right[i] = dp_right[j] + 1;
-		}
-	}
-	int m = 0;
-	for (int i = 0; i < N; i++) {
-		m = max(m, (dp_left[i] + dp_right[i]));
-	}
-	cout << m - 1 << endl;
+    for (int i = 0; i < n; i++) 
+    {
+        if (visited[i]) continue;
+        visited[i] = true;
+        vec.push_back(arr[i]);
+        DFS(cnt + 1);
+        vec.pop_back();
+        visited[i] = false;
+    }
+}
 
-	return 0;
+int main(void) 
+{
+    cin >> n >> m;
+
+    for (int i = 0; i < n; i++) 
+    {
+        arr[i] = i + 1;
+        visited[i] = false;
+    }
+
+    DFS(0);
 }
