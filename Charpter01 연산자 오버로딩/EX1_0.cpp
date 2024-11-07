@@ -3,13 +3,20 @@ using namespace std;
 
 int main() 
 {
-    int num;
-    cin >> num;
+    int n = 0;
+    cin >> n;
 
-    int result = 0;
-    for (int i = 1; i * i <= num; i++) 
+    for (int y = 1; y <= n; y++)
     {
-        result++;
+        for (int x = 1; x <= n - y; x++)
+        {
+            cout << ' ';
+        }
+        for (int x = 1; x <= 2 * y - 1; x++)
+        {
+            cout << '*';
+        }
+
+        cout << '\n';
     }
-    cout << result;
 }
